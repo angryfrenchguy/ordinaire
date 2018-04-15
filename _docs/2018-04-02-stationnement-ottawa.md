@@ -1,0 +1,188 @@
+---
+layout: doc
+date: 2018-03-18
+title: Ottawa
+categories:
+  - Stationnement
+description: "Stationnement pour autocar à Ottawa"
+---
+
+<div class='rg-container'>
+	<table class='rg-table zebra' summary='Hed'>
+		<!-- <caption class='rg-header'>
+			<span class='rg-hed'>Hed</span>
+			<span class='rg-dek'>Dek goes here.</span>
+		</caption> -->
+		<thead>
+			<tr>
+				<th class='text '>position</th>
+				<th class='text '>carte</th>
+				<th class='text '>Nb de places</th>
+				<th class='text '>Horaire</th>
+			</tr>
+		</thead>
+		<tbody>
+
+				<tr class=''>
+					<td class='text ' data-title='position'>York coin Dalhousie</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69121,45.42881)/-75.69121,45.42881,17.5/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='York coin Dalhousie'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>York entre Cumberland et King  Edward</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.68803,45.43009)/-75.68803,45.43009,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='York entre Cumberland et King  Edward'></a></td>
+					<td class='text ' data-title='Nb de places'>4</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>York entre Dalhousie et Cumberland</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69101,45.42891)/-75.69101,45.42891,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='York entre Dalhousie et Cumberland'></a></td>
+					<td class='text ' data-title='Nb de places'>2</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Dalhousie à York</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69110,45.42875)/-75.69110,45.42875,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Dalhousie à York'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Cumberland à York</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.68914,45.42995)/-75.68914,45.42995,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Cumberland à York'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Guigues à Sussex</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69694,45.43003)/-75.69694,45.43003,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Guigues à Sussex'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Parent à Guigues</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69572,45.43127)/-75.69572,45.43127,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Parent à Guigues'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Besserer entre King Edward et Cumberland</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.68619,45.42773)/-75.68619,45.42773,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Besserer entre King Edward et Cumberland'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Daly à Nicholas (dans le tunnel)</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69004,45.42529)/-75.69004,45.42529,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Daly à Nicholas (dans le tunnel)'></a></td>
+					<td class='text ' data-title='Nb de places'>4</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>George à Sussex</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69363,45.42640)/-75.69363,45.42640,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='George à Sussex'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Metcalf au Musée de la Nature</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.68726,45.41341)/-75.68726,45.41341,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Metcalf au Musée de la Nature'></a></td>
+					<td class='text ' data-title='Nb de places'>3</td>
+					<td class='text ' data-title='Horaire'>3h</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Queen à Kent</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.70277,45.41977)/-75.70277,45.41977,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Queen à Kent'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>3h</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Sparks à Lyon</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.70649,45.41891)/-75.70649,45.41891,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Sparks à Lyon'></a></td>
+					<td class='text ' data-title='Nb de places'>4</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Sussex à George</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.69475,45.42625)/-75.69475,45.42625,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Sussex à George'></a></td>
+					<td class='text ' data-title='Nb de places'>1</td>
+					<td class='text ' data-title='Horaire'>24h (payant)</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Commisssioners entre Albert et Wellington</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.70943,45.41620)/-75.70943,45.41620,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Commisssioners entre Albert et Wellington'></a></td>
+					<td class='text ' data-title='Nb de places'>4+</td>
+					<td class='text ' data-title='Horaire'>24h</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Fleet et Wellington</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.71383,45.41572)/-75.71383,45.41572,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Fleet et Wellington'></a></td>
+					<td class='text ' data-title='Nb de places'>?</td>
+					<td class='text ' data-title='Horaire'>24h</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Des Allumetières (Arena de Gatineau)</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.72534,45.43348)/-75.72534,45.43348,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Des Allumetières (Arena de Gatineau)'></a></td>
+					<td class='text ' data-title='Nb de places'>?</td>
+					<td class='text ' data-title='Horaire'>24h</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='position'>Des Allumetières entre Laurier et Maisonneuve</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.71208,45.43247)/-75.71208,45.43247,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Des Allumetières entre Laurier et Maisonneuve'></a></td>
+					<td class='text ' data-title='Nb de places'>2</td>
+					<td class='text ' data-title='Horaire'>3h</td>
+				</tr>
+
+
+				<!-- <tr class=''>
+					<td class='text ' data-title='position'>Laurier et Musée de l'Histoire</td>
+					<td class='text ' data-title='carte'><a href='https://maps.google.com/maps?q=45.430093, -75.688030'><img src='https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-parking+ff2600(-75.70994,45.43031)/-75.70994,45.43031,17/640x320@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw' alt='Laurier et Musée de l'Histoire'></a></td>
+					<td class='text ' data-title='Nb de places'>6</td>
+					<td class='text ' data-title='Horaire'>3h</td>
+				</tr> -->
+
+		</tbody>
+	</table>
+	<!-- <div class='rg-source'>
+		<span class='pre-colon'>SOURCE</span>: <span class='post-colon'>Sources</span>
+	</div> -->
+</div>
+
+## Parcomètres
+
+## Documentation
+
+[Information sur le stationnement des autocars et autobus dans la ville d'Ottawa](http://trade.seetorontonow.com/wp-content/uploads/sites/4/2016/10/stationnement-des-autocars-et-autobus-dans-la-ville-de-toronto.pdf)
