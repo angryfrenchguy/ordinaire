@@ -1,4 +1,4 @@
-{% if page.author %}
+<!-- {% if page.author %}
   {% assign author = site.authors[page.author] %}
 {% else %}
   {% assign author = site.author %}
@@ -10,9 +10,9 @@
 
 {% if author.name %}
     Written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span><br>
-{% endif %}
+{% endif %} -->
 
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
     {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-    {{ page.date | date: date_format }}
+    Dernière mise à jour : {{ page.date | date: date_format }}
 </time>

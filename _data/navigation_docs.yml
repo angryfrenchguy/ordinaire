@@ -1,25 +1,24 @@
-- title: Getting Started
+- title: Conditions de travail
   docs:
-  - home
-  - quickstart
-  - installation
-  - windows
+  - reer
+  - assurances-collectives
+  - journees-de-maladie
 
-- title: Account and Billing
+- title: Stationnement
   docs:
-  - frontmatter
-  - posts
-  - drafts
-  - pages
+  - stationnement-quebec
+  - stationnement-ottawa
+  - stationnement-toronto
+  - stationnement-boston
 
-- title: Customization
-  docs:
-  - usage
-  - structure
-  - configuration
-
-- title: Troubleshooting
-  docs:
-  - variables
-  - collections
-  - assets
+# - title: Customization
+#   docs:
+#   - usage
+#   - structure
+#   - configuration
+#
+# - title: Troubleshooting
+#   docs:
+#   - variables
+#   - collections
+#   - assets

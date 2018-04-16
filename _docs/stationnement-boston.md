@@ -5,7 +5,13 @@ title: Boston
 categories:
   - Stationnement
 description: "Stationnement pour autocar à Boston"
+tag: parking
 ---
+
+<!-- #### Sections dans ce document -->
+{:.no_toc}
+* TOC
+{:toc}
 
 ## Stationnement sur la rue
 

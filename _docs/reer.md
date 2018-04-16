@@ -7,7 +7,10 @@ categories:
 description: "REER"
 ---
 
-# REER
+#### Sections dans ce document
+{:.no_toc}
+* TOC
+{:toc}
 
 Les chauffeurs réguliers peuvent cotiser au Régime d'Épargne Collectif d'autocar Excellence. L'employeur égale la cotisation de l'employé, selon l'ancienneté, jusqu'à 5%. Les cotisations de l'employé sont prélevées chaque semaine sur sa paye.
 
@@ -16,11 +19,11 @@ Les chauffeurs réguliers peuvent cotiser au Régime d'Épargne Collectif d'auto
 ### Part de l'employeur
 
 | Ancienneté      | Cotisation maximum de l'employeur |
-|:----------------|:----------------------------------|
-| Après 12 mois   | 2%                                |
-| Après 24 mois   | 3%                                |
-| Après 36 mois   | 4%                                |
-| Plus de 48 mois | 5%                                |
+|:----------------|:---------------------------------:|
+| Après 12 mois   |                2%                 |
+| Après 24 mois   |                3%                 |
+| Après 36 mois   |                4%                 |
+| Plus de 48 mois |                5%                 |
 
 La part de l'employeur est déposée dans un compte RPDB (Régime de participation différé aux bénéfices). **Un employé qui quitte son emploi avant d'avoir cotisé pendant 2 ans perd la part de l'employeur.** Après 2 ans de cotisation, cet argent est à lui pour de bon. La part de l'employé, prélevée sur sa paye, lui appartient dès le début et pour toujours.
 

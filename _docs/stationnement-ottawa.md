@@ -1,11 +1,17 @@
 ---
 layout: doc
 date: 2018-03-18
-title: Ottawa
+title: Stationnement Ottawa
 categories:
   - Stationnement
 description: "Stationnement pour autocar à Ottawa"
+tags: featured, parking
 ---
+
+<!-- #### Sections dans ce document -->
+{:.no_toc}
+* TOC
+{:toc}
 
 <div class='rg-container'>
 	<table class='rg-table zebra' summary='Hed'>

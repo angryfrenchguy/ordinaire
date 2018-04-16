@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div id="secret" style="display:none">
+
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid-large" data-uk-grid>
@@ -35,7 +37,7 @@ layout: default
 
                     <div class="article-content">
                         {{ content }}
-                        {% include share.html %}
+                        <!-- {% include share.html %} -->
                     </div>
 
                     <hr class="uk-margin-medium">
@@ -59,3 +61,8 @@ layout: default
 
     </div>
 </div>
+</div>
+
+<!-- Enlever les commentaires pour avoir l'authentification -->
+{% include firebase-config.html %}
+{% include event_listener.html %}
