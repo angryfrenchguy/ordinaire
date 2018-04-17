@@ -5,7 +5,7 @@ title: Boston
 categories:
   - Stationnement
 description: "Stationnement pour autocar à Boston"
-tag: parking
+tags: parking
 ---
 
 <!-- #### Sections dans ce document -->
@@ -13,24 +13,27 @@ tag: parking
 * TOC
 {:toc}
 
+## Stationnement pour autocar
+
+{% include stationnement/boston-stationnement.html%}
+
 ## Stationnement sur la rue
 
 ### Places pour voitures
 
-Les autocars **n'ont pas le droit** de se stationner dans les espaces avec parcomètres.
+Les autocars **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de se stationner dans les espaces avec parcomètres.
 
 ### Places pour véhicules commerciaux
 
-Les autocars **n'ont pas le droit** de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
-
-Source : [Ville de Boston](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)
+Les autocars  **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
 
 ## Documentation
 
 ### Cartes
 
-[Carte de Boston](https://www.cityofboston.gov/images_documents/Tour%20Bus%20Parking_updated%206_23_tcm3-12491.pdf)
-[Carte de Cambridge pour Harvard](https://www.cambridgema.gov/~/media/Files/Traffic/Harvard-Square-Tour-Bus-Stop.pdf) et [MIT](https://www.cambridgema.gov/~/media/Files/Traffic/TourBusStopMIT1.pdf)
+[Carte de Boston](https://www.cityofboston.gov/images_documents/Tour%20Bus%20Parking_updated%206_23_tcm3-12491.pdf)  
+[Carte de Harvard](https://www.cambridgema.gov/~/media/Files/Traffic/Harvard-Square-Tour-Bus-Stop.pdf)  
+[Carte de MIT](https://www.cambridgema.gov/~/media/Files/Traffic/TourBusStopMIT1.pdf)
 
 
 ### Information

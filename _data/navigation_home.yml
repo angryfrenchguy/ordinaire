@@ -1,16 +1,16 @@
 # Categories home page navigation
 
-- title: Conditions salariales
+- title: Conditions de travail
   desc: Tout ce que tu veux savoir sur tes conditions de travail
   icon: credit-card
-  doc: home
+  doc: conditions-de-travail
 
 - title: Stationnement
   desc: Où te stationner dans nos principales destinations
   icon: location
-  doc: home #mais tu peux mettre un autre document
+  doc: stationnement #mais tu peux mettre un autre document
 
-- title: Troubleshooting
-  desc: Answers to most common configuration issues
+- title: Destinations
+  desc: Tout savoir sur nos principales destinations
   icon: bolt
-  doc: variables
+  doc: destinations

@@ -2,7 +2,9 @@
 layout: doc
 title: Grille salariale
 categories:
+  - conditions de travail
 author: Moi
+description: La grille salariale la plus récente
 ---
 
 #### Sections in this article
@@ -112,7 +114,7 @@ author: Moi
 		</tbody>
 	</table>
 	<div class='rg-source'>
-		<span class='pre-colon'>SOURCE</span>: <span class='post-colon'>Sources</span>
+		<span class='pre-colon'>SOURCE</span>: <span class='post-colon'><a href='/documents/Salaires 2017-2018 Excel-Tours 01-05-17.pdf'>Compagnie</a></span>
 	</div>
 </div>
 
@@ -132,4 +134,4 @@ le tems de conduite pour s'y rendre est moins de 4 heures.
 - Faux départ ou annulation sur place, à partir du moment où le chauffeur doit être au garage pour son départ.
 
 <!-- [source](/autocar_mediocrite/docs/Salaires 2017-2018 Excel-Tours 01-05-17.pdf) -->
-[source](/docs/Salaires 2017-2018 Excel-Tours 01-05-17.pdf)
+[source](/documents/Salaires 2017-2018 Excel-Tours 01-05-17.pdf)

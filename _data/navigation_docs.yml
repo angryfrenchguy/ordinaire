@@ -3,6 +3,8 @@
   - reer
   - assurances-collectives
   - journees-de-maladie
+  - grille-salariale
+  - sommaire
 
 - title: Stationnement
   docs:
@@ -11,11 +13,10 @@
   - stationnement-toronto
   - stationnement-boston
 
-# - title: Customization
-#   docs:
-#   - usage
-#   - structure
-#   - configuration
+- title: Destinations
+  docs:
+  - toronto
+  - ottawa
 #
 # - title: Troubleshooting
 #   docs:

@@ -3,8 +3,8 @@ layout: doc
 date: 2018-03-18
 title: REER
 categories:
-  - Conditions de travail
-description: "REER"
+  - conditions de travail
+description: "Le régime de retraite des employés d'Autocar ordinaire"
 ---
 
 #### Sections dans ce document
@@ -18,12 +18,52 @@ Les chauffeurs réguliers peuvent cotiser au Régime d'Épargne Collectif d'auto
 
 ### Part de l'employeur
 
-| Ancienneté      | Cotisation maximum de l'employeur |
-|:----------------|:---------------------------------:|
-| Après 12 mois   |                2%                 |
-| Après 24 mois   |                3%                 |
-| Après 36 mois   |                4%                 |
-| Plus de 48 mois |                5%                 |
+<!-- | Ancienneté      | Cotisation maximum de l'employeur | -->
+<!-- |:----------------|:---------------------------------:| -->
+<!-- | Après 12 mois   |                2%                 | -->
+<!-- | Après 24 mois   |                3%                 | -->
+<!-- | Après 36 mois   |                4%                 | -->
+<!-- | Plus de 48 mois |                5%                 | -->
+
+<div class='rg-container'>
+	<table class='rg-table zebra' summary=''>
+		<thead>
+			<tr>
+				<th class='text '>Ancienneté</th>
+				<th class='text '>Cotisation maximum de l'employeur</th>
+			</tr>
+		</thead>
+		<tbody>
+
+				<tr class=''>
+					<td class='text ' data-title='Ancienneté'>Après 12 mois</td>
+					<td class='text ' data-title="Cotisation maximum de l'employeur">2%</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='Ancienneté'>Après 24 mois</td>
+					<td class='text ' data-title="Cotisation maximum de l'employeur">3%</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='Ancienneté'>Après 36 mois</td>
+					<td class='text ' data-title="Cotisation maximum de l'employeur">4%</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='text ' data-title='Ancienneté'>Plus de 48 mois</td>
+					<td class='text ' data-title="Cotisation maximum de l'employeur">5%</td>
+				</tr>
+
+		</tbody>
+	</table>
+	<div class='rg-source'>
+		<span class='pre-colon'>SOURCE</span>: <span class='post-colon'><a href='documents/Salaires 2017-2018 Excel-Tours 01-05-17.pdf'>Compagnie</a></span>
+	</div>
+</div>
 
 La part de l'employeur est déposée dans un compte RPDB (Régime de participation différé aux bénéfices). **Un employé qui quitte son emploi avant d'avoir cotisé pendant 2 ans perd la part de l'employeur.** Après 2 ans de cotisation, cet argent est à lui pour de bon. La part de l'employé, prélevée sur sa paye, lui appartient dès le début et pour toujours.
 
