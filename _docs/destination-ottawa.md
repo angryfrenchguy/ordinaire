@@ -4,9 +4,8 @@ date: 2018-04-17
 title: Ottawa
 categories:
   - destinations
+  - stationnements
 description: "Informations sur Ottawa"
-tags:
-  - destination
 ---
 
 #### Sections dans ce document
@@ -16,4 +15,12 @@ tags:
 
 ## Stationnement
 
-{% include stationnement/ottawa-stationnement.html %}
+### pour autocar
+
+{% include stationnement/ottawa-stationnement-include.html %}
+
+### Sur la rue
+
+## Documentation
+
+[Information sur le stationnement des autocars et autobus dans la ville d'Ottawa](http://trade.seetorontonow.com/wp-content/uploads/sites/4/2016/10/stationnement-des-autocars-et-autobus-dans-la-ville-de-toronto.pdf)

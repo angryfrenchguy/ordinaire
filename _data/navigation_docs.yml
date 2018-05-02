@@ -6,20 +6,18 @@
   - grille-salariale
   - sommaire
 
-- title: Stationnement
-  docs:
-  - stationnement-quebec
-  - stationnement-ottawa
-  - stationnement-toronto
-  - stationnement-boston
+# - title: Stationnement
+#   docs:
 
 - title: Destinations
   docs:
-  - toronto
-  - ottawa
-#
-# - title: Troubleshooting
-#   docs:
-#   - variables
-#   - collections
-#   - assets
+  - destination-toronto
+  - destination-ottawa
+  - destination-quebec
+
+- title: Formulaires
+  docs:
+  - a25
+  - 407
+  - heures-supplementaires
+  - responsabilite-alcool

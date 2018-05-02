@@ -18,4 +18,4 @@ Le chauffeur peut demander à tout moment de recevoir cet argent, par exemple pe
 
 Règle générale, la compagnie n'emet pas de relevé du sommaire. C'est le chauffeur qui désir en connaître le solde doit faire une demande à la comptabilité.
 
-*CEux qui n'ont jamais consulté leur sommaire risque d'avoir une agréable surprise!*
+*Ceux qui n'ont jamais consulté leur sommaire risque d'avoir une agréable surprise!*

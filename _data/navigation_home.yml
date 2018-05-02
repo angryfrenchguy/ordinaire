@@ -7,10 +7,25 @@
 
 - title: Stationnement
   desc: Où te stationner dans nos principales destinations
-  icon: location
+  icon: happy
   doc: stationnement #mais tu peux mettre un autre document
+
+- title: Lavage
+  desc: Où se faire laver et/ou vider la toilette
+  icon: trash
+  doc: lavage #mais tu peux mettre un autre document
 
 - title: Destinations
   desc: Tout savoir sur nos principales destinations
-  icon: bolt
+  icon: location
   doc: destinations
+
+- title: Aéroports
+  desc: Procédure aux aéroports
+  icon: world
+  doc: aeroport
+
+- title: formulaires
+  desc: Toute sorte de formulaires
+  icon: pencil
+  doc: formulaires

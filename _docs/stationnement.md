@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stationnement
-subtitle: 
+subtitle:
 author:
 Categories: Stationnement
 tags:
@@ -10,10 +10,10 @@ tags:
 <ul>
 
 {% for p in site.docs %}
-  {% if p.categories contains 'Stationnement' %}
-  <li>
+  {% if p.categories contains 'stationnements' %}
+  <li class='liste_categorie'>
   <!-- <div> -->
-  <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+  <h3><a href="{{ p.url }}#stationnement">{{ p.title }}</a></h3>
   <!-- <br>
   <p>{{p.description}}</p> -->
   <!-- </div> -->

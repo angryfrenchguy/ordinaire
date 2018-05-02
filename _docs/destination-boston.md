@@ -1,33 +1,33 @@
 ---
 layout: doc
-date: 2018-04-10
+date: 2018-04-18
 title: Boston
 categories:
-  - Stationnement
-description: "Stationnement pour autocar à Boston"
-tags: parking
+  - destinations
+  - stationnements
+description: "Informations sur Boston"
 ---
 
-<!-- #### Sections dans ce document -->
+#### Sections dans ce document
 {:.no_toc}
 * TOC
 {:toc}
 
-## Stationnement pour autocar
+## Stationnement
 
-{% include stationnement/boston-stationnement.html%}
+### Stationnement pour autocar
 
-## Stationnement sur la rue
+{% include stationnement/boston-stationnement-include.html%}
 
-### Places pour voitures
+### Stationnement sur la rue
+
+#### Places pour voitures
 
 Les autocars **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de se stationner dans les espaces avec parcomètres.
 
-### Places pour véhicules commerciaux
+#### Places pour véhicules commerciaux
 
 Les autocars  **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
-
-## Documentation
 
 ### Cartes
 

@@ -11,7 +11,7 @@ tags:
 
 {% for p in site.docs %}
   {% if p.categories contains 'destinations' %}
-  <li>
+  <li class='liste_categorie'>
   <!-- <div> -->
   <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
   <!-- <br>
