@@ -14,6 +14,8 @@
   - destination-toronto
   - destination-ottawa
   - destination-quebec
+  - destination-boston
+  - destination-montreal
 
 - title: Formulaires
   docs:
