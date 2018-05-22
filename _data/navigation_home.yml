@@ -5,27 +5,37 @@
   icon: credit-card
   doc: conditions-de-travail
 
-- title: Stationnement
-  desc: Où te stationner dans nos principales destinations
-  icon: happy
-  doc: stationnement #mais tu peux mettre un autre document
-
-- title: Lavage
-  desc: Où se faire laver et/ou vider la toilette
-  icon: trash
-  doc: lavage #mais tu peux mettre un autre document
-
-- title: Destinations
-  desc: Tout savoir sur nos principales destinations
-  icon: location
-  doc: destinations
-
-- title: Aéroports
-  desc: Procédure aux aéroports
-  icon: world
-  doc: aeroport
-
 - title: formulaires
   desc: Toute sorte de formulaires
   icon: pencil
   doc: formulaires
+
+# - title: Boston
+#   desc: Stationnement et autres infos
+#   icon: happy
+#   doc: destination-boston
+#
+# - title: New York
+#   desc: Stationnement et autres infos
+#   icon: trash
+#   doc: destination-new-york
+#
+# - title: Toronto
+#   desc: Tout savoir sur nos principales destinations
+#   icon: location
+#   doc: destination-toronto
+#
+# - title: Ottawa
+#   desc: Procédure aux aéroports
+#   icon: world
+#   doc: destination-ottawa
+#
+# - title: Montréal
+#   desc: Procédure aux aéroports
+#   icon: world
+#   doc: destination-montreal
+#
+# - title: Québec
+#   desc: Procédure aux aéroports
+#   icon: world
+#   doc: destination-quebec

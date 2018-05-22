@@ -18,6 +18,38 @@ layout: default
 
         {% if page.categories.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.categories.subtitle | escape }}</p>{% endif %}
 
+
+        <h2 class="uk-text-center heading-hero-2">Destinations</h2>
+
+        <p class="subtitle uk-text-center uk-text-lead">
+          Où se stationner, où se faire laver, où se faire réparer et plein d'autres informations sur nos principales destinations.
+        </p>
+
+        <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
+        {% for item in site.data.destination_home %}
+            {% if item.title %}
+            {% assign doc_url = item.doc | prepend:"/docs/" | append:"/" %}
+            {% assign doc = site.docs | where:"url", doc_url | first %}
+            <div>
+                <div class="uk-card uk-card-body uk-inline uk-border-rounded">
+                    <a class="uk-position-cover" href="{{ doc.url }}"></a>
+                    {% if item.icon %}
+                    <span data-uk-icon="icon: {{ item.icon }}; ratio: 2" class=""></span>
+                    {% endif %}
+                    <h3 class="uk-card-title uk-margin">{{ item.title }}</h3>
+                    {% if item.desc %}
+                    <p>{{ item.desc }}</p>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+
+        <br />
+
+      <h2 class="uk-text-center heading-hero-2">Autres informations</h2>
+
         <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>
         {% for item in site.data.navigation_home %}
             {% if item.title %}

@@ -11,9 +11,26 @@
   font-style: italic;
 }
 
-.anchor {
-    display: block;
-    position: relative;
-    top: -150px;
-    visibility: hidden;
+.metro {
+  font-size: 32px;
+  color: red;
 }
+
+// .ancre {
+//     display: block;
+//     position: relative;
+//     top: 500px;
+//     visibility: hidden;
+// }
+
+// h2[id], h3[id], h4[id] {
+//   padding-top: 150px;
+//   padding-bottom: -150px;
+// }
+
+// :target:before {
+//   content:"";
+//   display:block;
+//   height:150px; /* fixed header height*/
+//   margin:-150px 0 0; /* negative fixed header height */
+// }

@@ -17,7 +17,7 @@ description: "Informations sur Boston"
 
 ### Stationnement pour autocar
 
-{% include stationnement/boston-stationnement-include.html%}
+{% include stationnement/boston-stationnement-include.html %}
 
 ### Stationnement sur la rue
 

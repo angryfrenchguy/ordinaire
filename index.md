@@ -7,8 +7,8 @@ hero:
     search: true
 categories:
     columns: 3
-    title: Sujets
-    subtitle: Pour des réponses rapides, rends-toi directement à la section appropriée
+    title:
+    subtitle:
 cta:
     title: Questions, correction et plaintes?
     subtitle: Contactez-moi et on va essayer d'arranger ça.
