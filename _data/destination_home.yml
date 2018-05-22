@@ -1,0 +1,24 @@
+- title: Boston
+  desc: Stationnement et autres infos
+  icon: bridge
+  doc: destination-boston
+
+- title: Toronto
+  desc: Tout savoir sur nos principales destinations
+  icon: cn-tower
+  doc: destination-toronto
+
+- title: Ottawa
+  desc: Procédure aux aéroports
+  icon: rcmp
+  doc: destination-ottawa
+
+- title: Montréal
+  desc: Procédure aux aéroports
+  icon: traffic-cone
+  doc: destination-montreal
+
+- title: Québec
+  desc: Procédure aux aéroports
+  icon: radio
+  doc: destination-quebec
