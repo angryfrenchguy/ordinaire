@@ -31,7 +31,7 @@ function image(sig) {
 function fairePDF(sig,logo) {
 
   var titre = document.getElementById('titre').innerHTML;
-  var texte = document.getElementById('texte').innerHTML;
+  var texte = document.getElementById('textecite').innerHTML;
   var contrat = 're. contrat ' + document.getElementsByName('contrat')[0].value;
   var nom = document.getElementsByName('nom')[0].value;
   var courriel = document.getElementsByName('courriel')[0].value;

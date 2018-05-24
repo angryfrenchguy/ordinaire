@@ -8,4 +8,4 @@ description: "Autorisation pour ajout d'heures supplémentaires"
 ---
 
 Par la présente, j'autorise Autocar Excellence/Excel-Tours à charger un supplément sur la facture pour les heures supplémentaires ajoutées sur place avec le chauffeur.
-{: #texte}
+{: #textecite}

@@ -5,7 +5,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Autocar Oridinaire
+title:              Autocar Ordinaire
 description:        Une base de donnée pour les employés d'une compagnie d'autocar ordinaire
 
 # Site subpath, e.g. /blog
