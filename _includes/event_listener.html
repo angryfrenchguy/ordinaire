@@ -1,13 +1,13 @@
-<script>
-//Add realtime listener
-firebase.auth().onAuthStateChanged(firebaseUser => {
-  if(firebaseUser) {
-    console.log(firebaseUser);
-    secret.style.display ='';
-    btnLogout.style.display = '';
-  } else {
-    console.log('Pas loggé');
-    location.href = '/login';
-  };
-});
-</script>
+  <script>
+  //Add realtime listener
+  firebase.auth().onAuthStateChanged(firebaseUser => {
+    if(firebaseUser) {
+      console.log(firebaseUser);
+      secret.style.display ='';
+      btnLogout.style.display = '';
+    } else {
+      console.log('Pas loggé');
+      location.href = '/login';
+    };
+  });
+  </script>
