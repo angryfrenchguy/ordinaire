@@ -1,10 +1,27 @@
-<script>
+<!-- <script>
 //Add realtime listener
 firebase.auth().onAuthStateChanged(firebaseUser => {
   if(firebaseUser) {
     console.log(firebaseUser);
     // secret.style.display ='';
     btnLogout.style.display = '';
+  }
+});
+</script> -->
+
+<script>
+//Add realtime listener
+firebase.auth().onAuthStateChanged(firebaseUser => {
+  if(firebaseUser) {
+      // is email verified
+      if(firebaseUser.emailVerified) {
+        // show logged in user in UI
+        console.log(firebaseUser);
+        // secret.style.display ='';
+        btnLogout.style.display = '';
+        // alert('yé!');
+      }
+
   }
 });
 </script>

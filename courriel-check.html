@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+{% include firebase-config.html %}
+{% include firebase_ui.html %}
+
+<script>
+//Add realtime listener
+firebase.auth().onAuthStateChanged(firebaseUser => {
+  if(firebaseUser) {
+    console.log(firebaseUser);
+    // secret.style.display ='';
+    // btnLogout.style.display = '';
+    if (firebaseUser) {
+      // is email verified
+      if(firebaseUser.emailVerified) {
+        // show logged in user in UI
+        // alert('yé!');
+        window.location.replace('/');
+      } else {
+        // user e-mail is not verified - send verification mail and redirect
+        alert('Merci de valider votre adresse de courriel.');
+        // handle firebase promise and don't redirect until complete i.e. .then
+        firebaseUser.sendEmailVerification().then(function() {
+          window.location.replace('/');
+        });
+      }
+    };
+  }
+});
+</script>
