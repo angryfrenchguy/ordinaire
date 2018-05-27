@@ -13,6 +13,9 @@
                 {% endif %}
             <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
             {% endfor %}
+            <li>
+                <a id="btnLogout2" style="display:none;">Logout</a>
+            </li>
         </ul>
 
         <div class="uk-margin-small-top uk-text-center uk-text-muted uk-link-muted">
@@ -20,6 +23,35 @@
                 {% include social-networks.html %}
             </div>
         </div>
+
+        <script>
+          document.getElementById("btnLogout2").addEventListener("click", function() {
+            firebase.auth().signOut().then(function() {
+              // Sign-out successful.
+              location.href = '/ciao';
+            }).catch(function(error) {
+              // An error happened.
+            });
+          });
+        </script>
+
+        {% include firebase-config.html %}
+        <script>
+        //Add realtime listener
+        firebase.auth().onAuthStateChanged(firebaseUser => {
+          if(firebaseUser) {
+              // is email verified
+              if(firebaseUser.emailVerified) {
+                // show logged in user in UI
+                console.log(firebaseUser);
+                // secret.style.display ='';
+                btnLogout2.style.display = '';
+                // alert('yé!');
+              }
+
+          }
+        });
+        </script>
 
     </div>
 </div>
