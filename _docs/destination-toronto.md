@@ -55,7 +55,7 @@ Mal pris c'est aussi possible d'aller chez Coach Canada ou Taipan.
 
 {% include stationnement/toronto-stationnement-include.html %}
 
-### Stationnement sur la rue
+### Stationnement dans les places pour voitures
 
 Sauf indication contraire, les autocars [sont autorisés à se stationner sur la rue](https://www.toronto.ca/services-payments/streets-parking-transportation/applying-for-a-parking-permit/parking-by-laws-regulations/parking-for-buses-in-toronto/) s'ils paient au parcomètre.
 
@@ -68,3 +68,7 @@ Sauf indication contraire, les autocars [sont autorisés à se stationner sur la
 
 
 ## Aéroport
+
+L'enregistrement et le paiement du permis à l'aéroport de Toronto est fait par la répartition.  Les autocars doivent se rendre à l'aire d'attente près du terminal 3. *Il n'est plus nécessaire de s'enregistrer.* Les chauffeurs sont contactés par téléphone quand leur groupe est prêt à embarquer.
+
+<a href='https://maps.google.com/maps?q=43.687530,-79.617689'><img width="600" src="https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-airport+ff2600(-79.617689,43.687530)/-79.617689,43.687530,15/600x300@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw" alt="Mapbox Map of -79.617689,43.687530"></a>

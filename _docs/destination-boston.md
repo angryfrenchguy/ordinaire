@@ -19,15 +19,11 @@ description: "Informations sur Boston"
 
 {% include stationnement/boston-stationnement-include.html %}
 
-### Stationnement sur la rue
+### Stationnement dans les places pour voitures
 
 #### Places pour voitures
 
-Les autocars **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de se stationner dans les espaces avec parcomètres.
-
-#### Places pour véhicules commerciaux
-
-Les autocars  **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
+Les autocars **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de se stationner dans les espaces avec parcomètres, ni de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
 
 ### Cartes
 

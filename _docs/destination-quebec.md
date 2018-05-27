@@ -28,7 +28,7 @@ Washington, DC
 
 {% include stationnement/quebec-stationnement-include.html %}
 
-### Stationnement sur la rue
+### Stationnement dans les places pour voitures
 
 Le stationnement sur rue [est interdit](https://www.ville.quebec.qc.ca/gens_affaires/entreprises_specialisees/autobus_touristiques.aspx) à l'intérieur des murs du Vieux Québec.
 

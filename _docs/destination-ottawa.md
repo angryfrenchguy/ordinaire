@@ -15,11 +15,11 @@ description: "Informations sur Ottawa"
 
 ## Stationnement
 
-### pour autocar
+### Stationnement pour autocar
 
 {% include stationnement/ottawa-stationnement-include.html %}
 
-### Sur la rue
+### Stationnement dans les places pour voitures
 
 ## Documentation
 
