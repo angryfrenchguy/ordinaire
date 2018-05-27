@@ -19,6 +19,11 @@
   doc: destination-montreal
 
 - title: Québec
-  desc: 
+  desc:
   icon: radio
   doc: destination-quebec
+
+- title: New York
+  desc:
+  icon: I_Love_New_York
+  doc: destination-new-york
