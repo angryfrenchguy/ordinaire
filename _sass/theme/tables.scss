@@ -192,7 +192,7 @@ table.rg-table td {
 
 // Même mod pour la grille salariale ------------------------------------------------
 
-table.rg-table td[data-title='Temps Partiel']:before ,td[data-title='Temps Plein']:before,td[data-title='Première année de service']:before {
+table.rg-table td[data-title='Temps Partiel']:before ,td[data-title='Temps Plein']:before {
 content: attr(data-title);
 font-weight: bold;
 display: inline-block;

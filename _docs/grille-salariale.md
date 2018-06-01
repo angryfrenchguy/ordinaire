@@ -28,68 +28,70 @@ description: La grille salariale la plus récente
 				<tr class=''>
 					<td class='text ' data-title='Services'>Salaire régulier voyages de plus d’un jour.</td>
 					<td class='text ' data-title='Temps Plein'>Salaire : 160.00$<br>Dépenses : 48.00$</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>Salaire : 155.00$<br>Dépenses : 48.00$</td>
+					<td class='text ' data-title='Temps Partiel'>Salaire : 155.00$<br>Dépenses : 48.00$</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Salaire aux USA S’applique lors de tournée pour les journées travaillées aux USA</td>
 					<td class='text ' data-title='Temps Plein'>Salaire : 160.00$<br>Dépenses : 60.00$</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>Salaire : 155.00$<br>Dépenses : 60.00$</td>
+					<td class='text ' data-title='Temps Partiel'>Salaire : 155.00$<br>Dépenses : 60.00$</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Voyages à destination de New York, Boston, Philadelphie, Washington, Chicago (Clientèle Québécoise seulement)</td>
 					<td class='text ' data-title='Temps Plein'>Salaire : 175.00$<br>Dépenses : 60.00$</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>Salaire : 170.00$<br>Dépenses : 60.00$</td>
+					<td class='text ' data-title='Temps Partiel'>Salaire : 170.00$<br>Dépenses : 60.00$</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Départ d’une tournée entre minuit et 04h00am (heure au contrat)</td>
 					<td class='text ' data-title='Temps Plein'>75.00$ supplémentaire au salaire de la journée</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>75.00$ supplémentaire au salaire de la journée</td>
+					<td class='text ' data-title='Temps Partiel'>75.00$ supplémentaire au salaire de la journée</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Départ d’une tournée avant minuit (heure au contrat)</td>
 					<td class='text ' data-title='Temps Plein'>Salaire journalier complet</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>Salaire journalier complet</td>
+					<td class='text ' data-title='Temps Partiel'>Salaire journalier complet</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Prime de nuit<br>Départs entre 00h00 et 05h59<br>pour transferts et voyages de 1 jours et moins</td>
 					<td class='text ' data-title='Temps Plein'>25,00 $</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>25,00 $</td>
+					<td class='text ' data-title='Temps Partiel'>25,00 $</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Prime pour départs de dernière minute.<br>Moins de 3 heures entre l'appel et l'heure de départ.</td>
 					<td class='text ' data-title='Temps Plein'>50,00 $</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>50,00 $</td>
+					<td class='text ' data-title='Temps Partiel'>50,00 $</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Cellulaire</td>
 					<td class='text ' data-title='Temps Plein'>3$/jour au Canada<br>5$/jour au US</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>3$/jour au Canada<br>5$/jour au US</td>
+					<td class='text ' data-title='Temps Partiel'>3$/jour au Canada<br>5$/jour au US</td>
 				</tr>
 
 
 				<tr class=''>
 					<td class='text ' data-title='Services'>Assurance croix bleu US pour temps pleins ou partiels</td>
 					<td class='text ' data-title='Temps Plein'>Gratuit</td>
-					<td class='text ' data-title='Temps Partiel<br> et première année de service'>Gratuit</td>
+					<td class='text ' data-title='Temps Partiel'>Gratuit</td>
 				</tr>
 
 		</tbody>
 	</table>
 </div>
+
+*Le salaire des temps partiels s'applique aux chauffeurs réguliers pendant leur première année de service.*
 
 ## Tarif à l'heure
 
