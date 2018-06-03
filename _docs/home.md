@@ -5,7 +5,7 @@ subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imp
 tags: featured
 ---
 
-#### Sections in this article
+#### Sections
 {:.no_toc}
 * TOC
 {:toc}

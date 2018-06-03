@@ -9,33 +9,3 @@
   desc: Toute sorte de formulaires
   icon: pencil
   doc: formulaires
-
-# - title: Boston
-#   desc: Stationnement et autres infos
-#   icon: happy
-#   doc: destination-boston
-#
-# - title: New York
-#   desc: Stationnement et autres infos
-#   icon: trash
-#   doc: destination-new-york
-#
-# - title: Toronto
-#   desc: Tout savoir sur nos principales destinations
-#   icon: location
-#   doc: destination-toronto
-#
-# - title: Ottawa
-#   desc: Procédure aux aéroports
-#   icon: world
-#   doc: destination-ottawa
-#
-# - title: Montréal
-#   desc: Procédure aux aéroports
-#   icon: world
-#   doc: destination-montreal
-#
-# - title: Québec
-#   desc: Procédure aux aéroports
-#   icon: world
-#   doc: destination-quebec

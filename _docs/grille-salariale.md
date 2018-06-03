@@ -7,7 +7,7 @@ author: Moi
 description: La grille salariale la plus récente
 ---
 
-#### Sections in this article
+#### Sections
 {:.no_toc}
 * TOC
 {:toc}
