@@ -10,9 +10,8 @@ function rougeVert() {
          span[i].style.color= 'red';
        } else if (/\bOui\b/i.test(span[i].innerHTML)) {
          span[i].style.color= 'green';
+       } else if (/\u00C0\s\bvos\b\s\brisques\b/i.test(span[i].innerHTML)){
+         span[i].style.color= 'orange';
        }
-       // else {
-       //   span[i].style.color= 'yellow';
-       // }
   }
 }
