@@ -1,6 +1,6 @@
 ---
 layout: doc
-date: 2018-04-18
+date: 2018-06-04
 title: Toronto
 categories:
   - destinations

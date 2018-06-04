@@ -1,6 +1,6 @@
 ---
 layout: doc
-date: 2018-04-18
+date: 2018-06-04
 title: Boston
 categories:
   - destinations
@@ -20,8 +20,6 @@ description: "Informations sur Boston"
 {% include stationnement/boston-stationnement-include.html %}
 
 ### Stationnement dans les places pour voitures
-
-#### Places pour voitures
 
 Les autocars **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de se stationner dans les espaces avec parcomètres, ni de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
 
