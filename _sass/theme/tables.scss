@@ -178,7 +178,7 @@ table.rg-table td {
 // Ma mod ----------------------------------------------------------------------------
 // C'est ce qui fait que le label des colonnes 'location' et 'image' ou 'map' n'apparait pas.
 // Je ne sais pas pourquoi, mais ça ne marche pas bien si je met cette mod en bas.
-  table.rg-table td[data-title='Nb de places']:before ,td[data-title='Horaire']:before{
+  table.rg-table td[data-title='Nb de places']:before ,td[data-title='Horaire']:before,td[data-title='Nuit']:before{
   content: attr(data-title);
   font-weight: bold;
   display: inline-block;
