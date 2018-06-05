@@ -3,7 +3,7 @@ layout: home
 hero:
     title: Qu'est-ce que tu veux savoir?
     subtitle: Tout ce que tu veux savoir à propos de ta compagnie d'autocar
-    image: Bus-logo.svg
+    image: bus.svg
     search: true
 categories:
     columns: 3
