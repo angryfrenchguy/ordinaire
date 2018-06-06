@@ -1,6 +1,6 @@
 ---
 layout: doc
-date: 2018-05-27
+date: 2018-06-06
 title: New York
 categories:
   - destinations
@@ -12,9 +12,33 @@ description: "Informations sur New York"
 * TOC
 {:toc}
 
+## Stationnement
+
+### Stationnement pour autocar
+
+#### Downtown
+
+{% include stationnement/new-york-downtown-stationnement-include.html %}
+
+#### Midtown
+
+{% include stationnement/new-york-midtown-stationnement-include.html %}
+
+#### Uptown
+
+{% include stationnement/new-york-uptown-stationnement-include.html %}
+
+### Stationnement dans les places pour voitures
+
+Le stationnement d'un autobus dans les espaces pour voitures ou pour véhicules commerciaux à New York est [strictement interdit](http://www.nyc.gov/html/dot/html/ferrybus/charterbus.shtml#zones). *Tu vas avoir une contravention*.
+
+## Documentation
+
+Tout ce que tu veux savoir sur les règlements pour autocars à New York sur le [site du DOT de la ville de New York](http://www.nyc.gov/html/dot/html/ferrybus/charterbus.shtml#zones)
+
 ## By Night
 
-Points de vue où les clients peuvent aller voir la vue de Manhattan la nuit.
+Points de vue où les clients peuvent aller voir la vue des grattes-ciels de Manhattan la nuit.
 
 ### Hoboken
 
