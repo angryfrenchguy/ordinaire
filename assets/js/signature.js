@@ -1,3 +1,7 @@
+var SignaturePad = require('signature_pad');
+var moment = require('moment');
+var jsPDF = require('jspdf');
+
 moment.locale('fr');
 
 function signature() {
@@ -16,6 +20,8 @@ function signature() {
   cancelButton.addEventListener('click', function(event) {
     signaturePad.clear();
   });
+
+  // console.log('allo');
 
 };
 
@@ -86,3 +92,7 @@ function toPDF(sig, titre, texte, nom, courriel, date, contrat, logo) {
   }
 
 }
+
+$(document).ready(function() {
+  signature();
+});

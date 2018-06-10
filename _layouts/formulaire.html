@@ -3,12 +3,21 @@
 
 {% include head.html %}
 
-<script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js" integrity="sha384-CchuzHs077vGtfhGYl9Qtc7Vx64rXBXdIAZIPbItbNyWIRTdG0oYAqki3Ry13Yzu" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/moment.min.js"></script>
+<!-- Plutôt que de loader toutes les dépendences via le web, j'utilise browserify. Je download les modules avec NPM et dans mon ficher signature.js je met des var x = require('x');. Quand c'est prêt, je fais `browserify assets/js/signature.js -o assets/js/signature_bundle.js` dans le terminal, et j'ai maintenant un fichier bundle_signature, avec mon code *et* le code des modules dont j'ai besoin. Toute dans *mon* site.
+
+**ATTENTION**
+
+- Tu dois *manuellement* faire browserify dans le terminal si tu fais des modifications au code de signature.js.
+- Tu utilise une vielle version de jspdf. `npm install jspdf@1.3.5`. La plus reécente au moment d'écrire ces ligne fuckait toute la mise en page.
+- Pour le moment, le code de signature n'est que dans le layout formulaire.  -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js" integrity="sha384-CchuzHs077vGtfhGYl9Qtc7Vx64rXBXdIAZIPbItbNyWIRTdG0oYAqki3Ry13Yzu" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/en-ca.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/fr-ca.min.js"></script>
-<script src="{{ "/assets/js/signature.js" | relative_url }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/fr-ca.min.js"></script> -->
+<!-- <script src="{{ "/assets/js/signature.js" | relative_url }}"></script> -->
+<script src="{{ "/assets/js/signature_bundle.js" | relative_url }}"></script>
 
 <body>
 
@@ -108,12 +117,6 @@
     </div>
 
   </div>
-
-  <script>
-    $(document).ready(function() {
-      signature();
-    });
-  </script>
 
 
 </body>
