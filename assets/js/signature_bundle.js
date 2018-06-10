@@ -77,7 +77,7 @@ function toPDF(sig, titre, texte, nom, courriel, date, contrat, logo) {
   // doc.save('steak.pdf')
 
   function mail(pdf, courriel, titre, contrat) {
-    $.post("../../php/test.php", {
+    $.post("../../php/mail-bus.php", {
       contentType: 'application/json; charset=utf-8',
       data: JSON.stringify({
         pdf: pdf,
