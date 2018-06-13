@@ -24,6 +24,8 @@
             </div>
         </div>
 
+  {% if jekyll.environment == "production" %}
+
         <script>
           document.getElementById("btnLogout2").addEventListener("click", function() {
             firebase.auth().signOut().then(function() {
@@ -52,6 +54,8 @@
           }
         });
         </script>
+
+{% endif %}
 
     </div>
 </div>

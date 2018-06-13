@@ -2,7 +2,13 @@
 layout: default
 ---
 
-<div id="secret" style="display:none">
+{% if jekyll.environment == "production" %}
+    <div id="secret" style="display:none">
+{% else %}
+    <div id="secret">
+{% endif %}
+
+<!-- <div id="secret" style="display:none"> -->
 
 <div class="uk-section">
     <div class="uk-container">
@@ -64,9 +70,10 @@ layout: default
 </div>
 
 
-<!-- Enlever les commentaires pour avoir l'authentification -->
-{% include firebase-config.html %}
-{% include event_listener.html %}
-{% include logout.html %}
+{% if jekyll.environment == "production" %}
+  {% include firebase-config.html %}
+  {% include event_listener.html %}
+  {% include logout.html %}
+{% endif %}
 
 <!-- TODO Pourquoi mon piton LOGOUT n'apparaît pas? pis pourquoi je suis toujours loggé? -->

@@ -128,7 +128,9 @@ layout: default
 </div>
 {% endif %}
 
-{% include firebase-config.html %}
-<!-- Je fais un event listener différent because il ne faut pas cacher la page home. -->
-{% include event_listener_home.html %}
-{% include logout.html %}
+{% if jekyll.environment == "production" %}
+  {% include firebase-config.html %}
+  <!-- Je fais un event listener différent because il ne faut pas cacher la page home. -->
+  {% include event_listener_home.html %}
+  {% include logout.html %}
+{% endif %}

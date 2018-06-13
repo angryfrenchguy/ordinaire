@@ -2,8 +2,10 @@
 layout: page
 ---
 
-{% include firebase-config.html %}
-{% include firebase_ui.html %}
+{% if jekyll.environment == "production" %}
+  {% include firebase-config.html %}
+  {% include firebase_ui.html %}
+{% endif %}
 
 <script>
 //Add realtime listener

@@ -55,3 +55,9 @@ try {
 } catch (Exception $e) {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
   };
+
+  // TODO Voir à ceci, pris sur le README
+  // To load the French version
+  // $mail->setLanguage('fr', '/optional/path/to/language/directory/');
+
+  // TODO Est-ce que je peux configurer ceci autrement, de façon à ne pas avoir tout le dossier Vendor dans le site compilé?
