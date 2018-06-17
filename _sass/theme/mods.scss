@@ -16,6 +16,20 @@
   color: red;
 }
 
+#vamonos {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: #1579c1;
+  border-radius: 5px;
+}
+
+/* Change cursor when mousing over clickable layer */
+.leaflet-clickable {
+  cursor: crosshair !important;
+}
+
 // .ancre {
 //     display: block;
 //     position: relative;

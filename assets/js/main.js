@@ -167,7 +167,7 @@
         ratio: function ratio(dimensions, prop, value) {
             var obj;
             var aProp = prop === "width" ? "height" : "width";
-            return obj = {}, obj[aProp] = Math.round(value * dimensions[aProp] / dimensions[prop]), 
+            return obj = {}, obj[aProp] = Math.round(value * dimensions[aProp] / dimensions[prop]),
             obj[prop] = value, obj;
         },
         contain: function contain(dimensions, maxDimensions) {
@@ -2374,7 +2374,7 @@
             var obj;
             if (args === void 0) args = [];
             try {
-                return !options ? {} : startsWith(options, "{") ? JSON.parse(options) : args.length && !includes(options, ":") ? (obj = {}, 
+                return !options ? {} : startsWith(options, "{") ? JSON.parse(options) : args.length && !includes(options, ":") ? (obj = {},
                 obj[args[0]] = options, obj) : options.split(";").reduce(function(options, option) {
                     var ref = option.split(/:(.+)/);
                     var key = ref[0];
@@ -8785,15 +8785,15 @@
     })(window);
 })();
 
-function rougeVert() {
-    var span = document.getElementsByTagName("span");
-    for (var i = 0; i < span.length; i++) {
-        if (/\bNon\b/i.test(span[i].innerHTML)) {
-            span[i].style.color = "red";
-        } else if (/\bOui\b/i.test(span[i].innerHTML)) {
-            span[i].style.color = "green";
-        } else if (/\u00C0\s\bvos\b\s\brisques\b/i.test(span[i].innerHTML)) {
-            span[i].style.color = "orange";
-        }
-    }
-}
+// function rougeVert() {
+//     var span = document.getElementsByTagName("span");
+//     for (var i = 0; i < span.length; i++) {
+//         if (/\bNon\b/i.test(span[i].innerHTML)) {
+//             span[i].style.color = "red";
+//         } else if (/\bOui\b/i.test(span[i].innerHTML)) {
+//             span[i].style.color = "green";
+//         } else if (/\u00C0\s\bvos\b\s\brisques\b/i.test(span[i].innerHTML)) {
+//             span[i].style.color = "orange";
+//         }
+//     }
+// }

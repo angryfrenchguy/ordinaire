@@ -15,3 +15,11 @@ function rougeVert() {
        }
   }
 }
+
+function getLaMappe() {
+  var href = window.location.href;
+  var reg = new RegExp( '[?]([^&#]*)', 'i' );
+  var string = reg.exec(href);
+  console.log(string);
+  return string ? string[1] : null;
+}

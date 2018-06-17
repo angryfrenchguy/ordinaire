@@ -26,7 +26,10 @@ Washington, DC
 
 ### Stationnement pour autocars
 
-{% include stationnement/quebec-stationnement-include.html %}
+En haute saison, les probabilitées d'avoir une contravention à Québec sont assez élevées, *particulièrement dans les débarcadères!*  
+
+<br>
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?cjidnz2n81hc42rqoi9db4thx'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 

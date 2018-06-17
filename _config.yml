@@ -24,14 +24,14 @@ brand:
 
 # Default author settings
 author:
-    name:       John Smith
-    github:     PressApps    # Github username for avatar
+    name:       G B
+    github:         # Github username for avatar
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
     peter:
-        name:       Peter Brown
-        github:     PressApps    # Github username for avatar
+        name:
+        github:         # Github username for avatar
 
 # Social icons displayed in footer
 social:
@@ -90,6 +90,8 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
+  - README.vieux.md
+  - npm-debug.log
 
 sass:
   style:            compressed

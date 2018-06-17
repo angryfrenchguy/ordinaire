@@ -11,6 +11,8 @@
   </script>
   <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
