@@ -16,9 +16,10 @@ function rougeVert() {
   }
 }
 
-function getLaMappe() {
+function getLaMappe(champ) {
   var href = window.location.href;
-  var reg = new RegExp( '[?]([^&#]*)', 'i' );
+  // var reg = new RegExp( '[?]([^&#]*)', 'i' );
+  var reg = new RegExp( '[?&]' + champ + '=([^&#]*)', 'i' );
   var string = reg.exec(href);
   console.log(string);
   return string ? string[1] : null;

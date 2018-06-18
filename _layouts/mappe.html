@@ -1,78 +1,110 @@
 ---
 layout: default
 ---
-  <div id='map' style='height:100vh'></div>
 
-  <script>
-    // const mapboxgl = require('mapbox-gl');
+<!-- TODO Ajouter un toggle pour les places de nuit et celles qui ne sont utilisables que le jour. Voir https://www.mapbox.com/mapbox-gl-js/example/toggle-layers/. -->
 
-    var layer = getLaMappe();
+<div id='map' style='height:100vh'></div>
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw';
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/xobpam666/' + layer,
-      center: [-71.207, 46.809], // starting position [lng, lat]
-      zoom: 12 // starting zoom
+<script>
+  // const mapboxgl = require('mapbox-gl');
+
+  var mappe = getLaMappe('mappe');
+  var layer = getLaMappe('layer');
+  var lng = getLaMappe('lng');
+  var lat = getLaMappe('lat');
+  var zoom = getLaMappe('zoom');
+  var tileset = getLaMappe('tileset');
+
+  mapboxgl.accessToken = 'pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/xobpam666/' + mappe,
+    center: [lng,lat], // starting position [lng, lat]
+    zoom: zoom // starting zoom
+  });
+
+  // Code de la layer
+
+  map.on('load', function() {
+
+    map.addLayer({
+      'id': 'parking',
+      'type': 'symbol',
+      'source': {
+        type: 'vector',
+        url: 'mapbox://' + tileset
+      },
+      'layout': {
+        'visibility': 'visible',
+        'icon-image': 'bus-15',
+        'icon-allow-overlap': true
+      },
+      // 'paint': {
+      //   'circle-radius': 8,
+      //   'circle-color': 'rgba(55,148,179,1)'
+      // },
+      'source-layer': layer
+    });
+  });
+
+  // Code pour voir le popup
+
+  map.on('click', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {
+      layers: [layer]
     });
 
-    // Code pour voir le popup
+    if (!features.length) {
+      return;
 
-    map.on('click', function(e) {
-      var features = map.queryRenderedFeatures(e.point, {
-        layers: ['stat-qc-0148yg']
-      });
+    }
 
-      if (!features.length) {
-        return;
+    var feature = features[0];
 
-      }
-
-      var feature = features[0];
-
-      var popup = new mapboxgl.Popup({
-          offset: [0, -15]
-        })
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML(
-          '<b>' + feature.properties._0 + '</b> <br> \
+    var popup = new mapboxgl.Popup({
+        offset: [0, -15]
+      })
+      .setLngLat(feature.geometry.coordinates)
+      .setHTML(
+        '<b>' + feature.properties._0 + '</b> <br> \
             <p>Horaire :  ' + feature.properties.Horaire + '</p><br> \
             <p>Nuit? ' + feature.properties.Nuit +
-          '</p><br> \
+        '</p><br> \
             <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties
-          .gmap + '&quot;' + '" value="Vamonos!" />'
-        )
-        .setLngLat(feature.geometry.coordinates)
-        .addTo(map);
+        .gmap + '&quot;' + '" value="Vamonos!" />'
+      )
+      .setLngLat(feature.geometry.coordinates)
+      .addTo(map);
+  });
+
+  // Code pour changer le curseur en pointeur sur les éléments clickables. Pas clair comment faire ne mode mobile.
+
+  map.on("mousemove", function(e) {
+    //get the feature underneath the mouse
+    var features = map.queryRenderedFeatures(e.point, {
+      layers: [layer]
     });
+    //if there's a point under our mouse, then do the following.
+    if (features.length > 0) {
+      //use the following code to change the
+      //cursor to a pointer ('pointer') instead of the default ('')
+      map.getCanvas().style.cursor = (features[0].properties.Name !== null) ? 'pointer' : '';
+    }
+    //if there are no points under our mouse,
+    //then change the cursor back to the default
+    else {
+      map.getCanvas().style.cursor = '';
+    }
+  });
 
-    // Code pour changer le curseur en pointeur sur les éléments clickables. Pas clair comment faire ne mode mobile.
+  // Code pour la position de l'utilisateur
 
-    map.on("mousemove", function(e) {
-      //get the feature underneath the mouse
-      var features = map.queryRenderedFeatures(e.point, {
-        layers: [layer]
-      });
-      //if there's a point under our mouse, then do the following.
-      if (features.length > 0) {
-        //use the following code to change the
-        //cursor to a pointer ('pointer') instead of the default ('')
-        map.getCanvas().style.cursor = (features[0].properties.Name !== null) ? 'pointer' : '';
-      }
-      //if there are no points under our mouse,
-      //then change the cursor back to the default
-      else {
-        map.getCanvas().style.cursor = '';
-      }
-    });
-
-    // Code pour la position de l'utilisateur
-
-    map.addControl(new mapboxgl.GeolocateControl({
+  map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {
-        enableHighAccuracy: true
+      enableHighAccuracy: true
     },
     trackUserLocation: true
-}));
+  }));
 
-  </script>
+</script>

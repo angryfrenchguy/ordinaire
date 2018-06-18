@@ -1,12 +1,18 @@
 ---
 layout: doc
-date: 2018-06-04
+date: 2018-06-18
 title: Québec
 categories:
   - destinations
   - stationnements
   - lavage
 description: "Ressources pour chauffeurs à Québec"
+mappe: "cjidnz2n81hc42rqoi9db4thx"
+layer: "stat-qc-0148yg"
+lng: -71.213177
+lat: 46.812639
+zoom: 12
+tileset: "xobpam666.4kzgw0f3"
 ---
 
 #### Sections dans ce document
@@ -29,7 +35,7 @@ Washington, DC
 En haute saison, les probabilitées d'avoir une contravention à Québec sont assez élevées, *particulièrement dans les débarcadères!*  
 
 <br>
-<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?cjidnz2n81hc42rqoi9db4thx'" value="Voir la carte">
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 
