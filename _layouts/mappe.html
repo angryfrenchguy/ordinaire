@@ -30,20 +30,20 @@ layout: default
 
     map.addLayer({
       'id': 'parking',
-      'type': 'symbol',
+      'type': 'circle',
       'source': {
         type: 'vector',
         url: 'mapbox://' + tileset
       },
       'layout': {
-        'visibility': 'visible',
-        'icon-image': 'bus-15',
-        'icon-allow-overlap': true
+        'visibility': 'visible'
+        // 'icon-image': 'bus-15',
+        // 'icon-allow-overlap': true
       },
-      // 'paint': {
-      //   'circle-radius': 8,
-      //   'circle-color': 'rgba(55,148,179,1)'
-      // },
+      'paint': {
+        'circle-radius': 08,
+        'circle-color': 'rgba(55,148,179,1)'
+      },
       'source-layer': layer
     });
   });
@@ -67,10 +67,8 @@ layout: default
       })
       .setLngLat(feature.geometry.coordinates)
       .setHTML(
-        '<b>' + feature.properties._0 + '</b> <br> \
-            <p>Horaire :  ' + feature.properties.Horaire + '</p><br> \
-            <p>Nuit? ' + feature.properties.Nuit +
-        '</p><br> \
+        '<h4 class="titre-popup">' + feature.properties._0 + '</h4> \
+            <p><b>Horaire :  </b>' + feature.properties.Horaire + '</p> \
             <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties
         .gmap + '&quot;' + '" value="Vamonos!" />'
       )
