@@ -26,7 +26,7 @@ tileset: "xobpam666.1263is99"
 <!-- TODO Une seule mappe stationnement-quebec? -->
 
 <br>
-<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 

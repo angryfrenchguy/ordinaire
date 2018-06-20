@@ -69,8 +69,7 @@ layout: default
       .setHTML(
         '<h4 class="titre-popup">' + feature.properties._0 + '</h4> \
             <p><b>Horaire :  </b>' + feature.properties.Horaire + '</p> \
-            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties
-        .gmap + '&quot;' + '" value="Vamonos!" />'
+            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties.gmap + '&quot;' + '" value="Vamonos!" />'
       )
       .setLngLat(feature.geometry.coordinates)
       .addTo(map);
