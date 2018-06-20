@@ -65,11 +65,12 @@ layout: default
     var popup = new mapboxgl.Popup({
         offset: [0, -15]
       })
-      .setLngLat(feature.geometry.coordinates)
+      // .setLngLat(feature.geometry.coordinates)
       .setHTML(
         '<h4 class="titre-popup">' + feature.properties._0 + '</h4> \
+            <p><b>Nb de places : </b>' + feature.properties.places + '</p> \
             <p><b>Horaire :  </b>' + feature.properties.Horaire + '</p> \
-            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties.gmap + '&quot;' + '" value="Vamonos!" />'
+            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties.gmap + '&quot;' + '" value="Allons-y!" />'
       )
       .setLngLat(feature.geometry.coordinates)
       .addTo(map);

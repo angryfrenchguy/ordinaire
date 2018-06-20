@@ -30,8 +30,14 @@
   cursor: crosshair !important;
 }
 
+// Le popup sur les mappes
+
 .titre-popup {
   margin-top: 20px;
+}
+
+.mapboxgl-popup {
+  width: 180px;
 }
 
 @media screen and (max-width: 320px) {
