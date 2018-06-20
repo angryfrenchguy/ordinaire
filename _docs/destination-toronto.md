@@ -11,6 +11,12 @@ categories:
 description: "Ressources pour chauffeurs à Toronto"
 tags:
   - destination
+mappe: "cjidnz2n81hc42rqoi9db4thx"
+layer: "stat-to-9gimos"
+lng: -79.372
+lat: 43.638
+zoom: 13
+tileset: "xobpam666.65by5h95"
 ---
 
 #### Sections dans ce document
@@ -53,7 +59,8 @@ Mal pris c'est aussi possible d'aller chez Coach Canada ou Taipan.
 
 ### Stationnement pour autocar
 
-{% include stationnement/toronto-stationnement-include.html %}
+<br>
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 

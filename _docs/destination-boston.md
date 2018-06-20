@@ -6,6 +6,12 @@ categories:
   - destinations
   - stationnements
 description: "Informations sur Boston"
+mappe: "cjidnz2n81hc42rqoi9db4thx"
+layer: "stat-bos-co46f5"
+lng: -71.073
+lat: 42.373
+zoom: 12
+tileset: "xobpam666.diu9kjyu"
 ---
 
 #### Sections dans ce document
@@ -17,7 +23,8 @@ description: "Informations sur Boston"
 
 ### Stationnement pour autocar
 
-{% include stationnement/boston-stationnement-include.html %}
+<br>
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 

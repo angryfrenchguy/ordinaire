@@ -6,6 +6,12 @@ categories:
   - destinations
   - stationnements
 description: "Informations sur Ottawa"
+mappe: "cjidnz2n81hc42rqoi9db4thx"
+layer: "stat-ott-7vernm"
+lng: -75.692
+lat: 45.421
+zoom: 13
+tileset: "xobpam666.1263is99"
 ---
 
 #### Sections dans ce document
@@ -17,7 +23,10 @@ description: "Informations sur Ottawa"
 
 ### Stationnement pour autocar
 
-{% include stationnement/ottawa-stationnement-include.html %}
+<!-- TODO Une seule mappe stationnement-quebec? -->
+
+<br>
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement-quebec/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 
