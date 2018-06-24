@@ -8,8 +8,8 @@ categories:
 description: "Informations sur Boston"
 mappe: "cjidnz2n81hc42rqoi9db4thx"
 layer: "stat-bos-co46f5"
-lng: -71.073
-lat: 42.373
+lng: -71.062
+lat: 42.350
 zoom: 12
 tileset: "xobpam666.diu9kjyu"
 ---

@@ -8,8 +8,8 @@ categories:
 description: "Informations sur Ottawa"
 mappe: "cjidnz2n81hc42rqoi9db4thx"
 layer: "stat-ott-7vernm"
-lng: -75.692
-lat: 45.421
+lng: -75.700
+lat: 45.430
 zoom: 13
 tileset: "xobpam666.1263is99"
 ---

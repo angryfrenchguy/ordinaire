@@ -13,9 +13,9 @@ tags:
   - destination
 mappe: "cjidnz2n81hc42rqoi9db4thx"
 layer: "stat-to-9gimos"
-lng: -79.372
+lng: -79.380
 lat: 43.638
-zoom: 13
+zoom: 12
 tileset: "xobpam666.65by5h95"
 ---
 

@@ -41,10 +41,10 @@ layout: default
         // 'icon-image': 'bus-15',
         // 'icon-allow-overlap': true
       },
-      'paint': {
-        'circle-radius': 08,
-        'circle-color': 'rgba(55,148,179,1)'
-      },
+      // 'paint': {
+      //   'circle-radius': 12,
+      //   'circle-color': 'rgba(55,148,179,1)'
+      // },
       'source-layer': layer
     });
   });
@@ -64,9 +64,9 @@ layout: default
     var feature = features[0];
 
     var popup = new mapboxgl.Popup({
-        offset: [0, -15]
+        // offset: [0, -15]
       })
-      // .setLngLat(feature.geometry.coordinates)
+      .setLngLat(feature.geometry.coordinates)
       .setHTML(
         '<h4 class="titre-popup">' + feature.properties._0 + '</h4> \
             <p><b>Nb de places : </b>' + feature.properties.places + '</p> \
