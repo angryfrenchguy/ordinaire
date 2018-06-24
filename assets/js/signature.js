@@ -1,5 +1,6 @@
 var SignaturePad = require('signature_pad');
 var moment = require('moment');
+require('moment/locale/fr');
 var jsPDF = require('jspdf');
 
 moment.locale('fr');

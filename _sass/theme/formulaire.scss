@@ -45,6 +45,8 @@
   display: none;
 }
 
+// TODO Peut-être un pu moins de margin-top.
+
 #boutons {
   // position: fixed;
   // margin-bottom: 0;
@@ -70,6 +72,8 @@
   #bumper {
     height: 30px;
   }
+
+  // TODO Faire une plus belle mise-en-page pour les tablettes
 
   @media only screen and (min-width : $breakpoint-medium) {
 
