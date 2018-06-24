@@ -21,95 +21,45 @@
 
 <body>
 
-  <style>
-
-  /* Pour pouvoir signer sans l'effet rubber de ios. */
-
-    #boutons {
-      position: fixed;
-      margin-bottom: 0px;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      padding: 1rem;
-      background: white;
-    }
-
-    #lettres {
-      /* width: 100vw; */
-      height: 100vh;
-      overflow-y: scroll;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    #conteneur {
-      position: relative;
-    }
-
-    #bumper {
-      height: 30px;
-    }
-
-    #signature-pad {
-      border-bottom: solid 1px black;
-    }
-
-    #signature-ligne {
-      margin-top: 0;
-    }
-
-    /* Beaucoup de gossage pour les tata comme moi qui ont des tout petits téléphones. */
-
-    @media screen and (max-height: 600px) {
-      p {
-        font-size: 12px;
-      }
-      #info input[type="text"] {
-        font-size: 12px;
-      }
-      #info input[type="email"] {
-        font-size: 12px;
-      }
-      .btn {
-        font-size: 12px;
-        padding: 5px 20px 10px 5px;
-      }
-      canvas {
-        height: 90px;
-      }
-    }
-  </style>
-
   <div id="conteneur">
 
     <h2 id="titre">{{ page.title | escape }}</h2>
 
-    <div id="lettres">
 
-      <div id="texte">
-        {{ page.content }}
-      </div>
-
-      <div>
+      <div id="infodiv">
         <form id="info">
           <input type="text" name="contrat" placeholder="numéro du contrat">
           <input type="text" name="nom" placeholder="Nom du client">
           <input type="email" name="courriel" placeholder="Courriel du client">
         </form>
+        <br />
+        <button id="next" class="uk-button uk-button-primary">Suivant</button>
       </div>
-    </div>
-    <br>
+
+      <div id="texte">
+        {{ page.content }}
+        <br />
+        <button id="ok" class="uk-button uk-button-success">J'accepte</button>
+        <button id="back" class="uk-button uk-button-primary" style="display:none;">Retour</button>
+      </div>
+
 
     <div id="boutons">
 
-      <div class="sig-conteneur" style="margin:auto;max-width:600px">
-        <canvas id="signature-pad" class="signature-pad" height=100 width=280></canvas>
+      <!-- TODO Trouver le fucking moyen de resizer le signature pad en landscape! -->
+
+      <div id="sig-conteneur" class="flex-container">
+        <div id="sig-conteneur-interireur">
+        <canvas id="signature-pad" class="signature-pad"></canvas>
+        <p id="signature-ligne">Signature</p>
       </div>
-      <p id="signature-ligne">Signature</p>
-      <div>
-        <button id="save" class="btn">Approuver</button>
-        <button id="clear" class="btn">Effacer</button>
+      <div id="troisboutons">
+        <button id="save" class="uk-button uk-button-success">Approuver</button>
+        <button id="clear" class="uk-button">Effacer</button>
+        <button id="backdeux" class="uk-button uk-button-primary">Retour</button>
       </div>
+      </div>
+
       <div id="bumper">
 
       </div>
