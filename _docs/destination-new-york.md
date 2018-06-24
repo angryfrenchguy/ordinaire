@@ -10,7 +10,7 @@ mappe: "cjidnz2n81hc42rqoi9db4thx"
 layer: "stat-ny-4rsibb"
 lng: -73.990
 lat: 40.733
-zoom: 12
+zoom: 10.5
 tileset: "xobpam666.48qgqcpm"
 ---
 #### Sections dans ce document

@@ -9,8 +9,8 @@ categories:
 description: "Ressources pour chauffeurs à Québec"
 mappe: "cjidnz2n81hc42rqoi9db4thx"
 layer: "stat-qc-0148yg"
-lng: -71.218
-lat: 46.810
+lng: -71.21
+lat: 46.805
 zoom: 13
 tileset: "xobpam666.4kzgw0f3"
 ---
