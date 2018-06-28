@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " fr " }}">
+
+{% include head.html %}
+
+<!-- Plutôt que de loader toutes les dépendences via le web, j'utilise browserify. Je download les modules avec NPM et dans mon ficher signature.js je met des var x = require('x');. Quand c'est prêt, je fais `browserify assets/js/signature.js -o assets/js/signature_bundle.js` dans le terminal, et j'ai maintenant un fichier bundle_signature, avec mon code *et* le code des modules dont j'ai besoin. Toute dans *mon* site.
+
+**ATTENTION**
+
+- Tu dois *manuellement* faire browserify dans le terminal si tu fais des modifications au code de signature.js.
+- Tu utilise une vielle version de jspdf. `npm install jspdf@1.3.5`. La plus reécente au moment d'écrire ces ligne fuckait toute la mise en page.
+- Pour le moment, le code de signature n'est que dans le layout formulaire.  -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js" integrity="sha384-CchuzHs077vGtfhGYl9Qtc7Vx64rXBXdIAZIPbItbNyWIRTdG0oYAqki3Ry13Yzu" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/en-ca.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/fr-ca.min.js"></script> -->
+<!-- <script src="{{ "/assets/js/signature.js" | relative_url }}"></script> -->
+<script src="{{ "/assets/js/signature_bundle.js" | relative_url }}"></script>
+
+<body>
+
+  <div id="conteneur">
+
+    <h2 id="titre">{{ page.title | escape }}</h2>
+
+
+      <div id="infodiv">
+        <form id="info">
+          <input type="text" name="contrat" placeholder="Contract number">
+          <input type="text" name="nom" placeholder="Client's name">
+          <input type="email" name="courriel" placeholder="Client's email">
+        </form>
+        <br />
+        <button id="next" class="uk-button uk-button-primary">Next</button>
+      </div>
+
+      <div id="texte">
+        {{ page.content }}
+        <br />
+        <button id="ok" class="uk-button uk-button-success">I agree</button>
+        <button id="back" class="uk-button uk-button-primary" style="display:none;">Back</button>
+      </div>
+
+
+    <div id="boutons">
+
+      <!-- TODO Trouver le fucking moyen de resizer le signature pad en landscape! -->
+
+      <div id="sig-conteneur" class="flex-container">
+        <div id="sig-conteneur-interireur">
+        <canvas id="signature-pad" class="signature-pad"></canvas>
+        <p id="signature-ligne">Signature</p>
+      </div>
+      <div id="troisboutons">
+        <button id="save" class="uk-button uk-button-success">Approve</button>
+        <button id="clear" class="uk-button">Clear</button>
+        <button id="backdeux" class="uk-button uk-button-primary">Back</button>
+      </div>
+      </div>
+
+      <div id="bumper">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
