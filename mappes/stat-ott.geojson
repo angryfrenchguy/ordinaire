@@ -1,0 +1,328 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "York coin Dalhousie",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.428812,-75.69121",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69121,
+          45.42881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "York entre Cumberland et King  Edward",
+        "places": "4",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.430092,-75.68803",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.68803,
+          45.43009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "York entre Dalhousie et Cumberland",
+        "places": "2",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.428912,-75.69101",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69101,
+          45.42891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Dalhousie à York",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.428752,-75.69110",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6911,
+          45.42875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Cumberland à York",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.429952,-75.68914",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.68914,
+          45.42995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Guigues à Sussex",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.430032,-75.69694",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69694,
+          45.43003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parent à Guigues",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.431272,-75.69572",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69572,
+          45.43127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Besserer entre King Edward et Cumberland",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.427732,-75.68619",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.68619,
+          45.42773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Daly à Nicholas (dans le tunnel)",
+        "places": "4",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.425292,-75.69004",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69004,
+          45.42529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "George à Sussex",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.426402,-75.69363",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69363,
+          45.4264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Metcalf au Musée de la Nature",
+        "places": "3",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=45.413412,-75.68726",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.68726,
+          45.41341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Queen à Kent",
+        "places": "1",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=45.419772,-75.70277",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.70277,
+          45.41977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Sparks à Lyon",
+        "places": "4",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.418912,-75.70649",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.70649,
+          45.41891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Sussex à George",
+        "places": "1",
+        "horaire": "24h (payant)",
+        "gmap": "https://maps.google.com/maps?q=45.426252,-75.69475",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69475,
+          45.42625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Commisssioners entre Albert et Wellington",
+        "places": "4+",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.416202,-75.70943",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.70943,
+          45.4162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Fleet et Wellington",
+        "places": "?",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.415722,-75.71383",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.71383,
+          45.41572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Des Allumetières (Arena de Gatineau)",
+        "places": "?",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.433482,-75.72534",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.72534,
+          45.43348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Des Allumetières entre Laurier et Maisonneuve",
+        "places": "2",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=45.432472,-75.71208",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.71208,
+          45.43247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Laurier et Musée de l'Histoire",
+        "places": "6",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=45.430312,-75.70994",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.70994,
+          45.43031
+        ]
+      }
+    }
+  ]
+}

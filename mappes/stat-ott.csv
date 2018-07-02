@@ -1,0 +1,20 @@
+nom;places;horaire;longitude;latitude;gmap;debarcadere
+York coin Dalhousie;1;24h (payant);-75.69121;45.42881;https://maps.google.com/maps?q=45.428812,-75.69121;FAUX
+York entre Cumberland et King  Edward;4;24h (payant);-75.68803;45.43009;https://maps.google.com/maps?q=45.430092,-75.68803;FAUX
+York entre Dalhousie et Cumberland;2;24h (payant);-75.69101;45.42891;https://maps.google.com/maps?q=45.428912,-75.69101;FAUX
+Dalhousie à York;1;24h (payant);-75.69110;45.42875;https://maps.google.com/maps?q=45.428752,-75.69110;FAUX
+Cumberland à York;1;24h (payant);-75.68914;45.42995;https://maps.google.com/maps?q=45.429952,-75.68914;FAUX
+Guigues à Sussex;1;24h (payant);-75.69694;45.43003;https://maps.google.com/maps?q=45.430032,-75.69694;FAUX
+Parent à Guigues;1;24h (payant);-75.69572;45.43127;https://maps.google.com/maps?q=45.431272,-75.69572;FAUX
+Besserer entre King Edward et Cumberland;1;24h (payant);-75.68619;45.42773;https://maps.google.com/maps?q=45.427732,-75.68619;FAUX
+Daly à Nicholas (dans le tunnel);4;24h (payant);-75.69004;45.42529;https://maps.google.com/maps?q=45.425292,-75.69004;FAUX
+George à Sussex;1;24h (payant);-75.69363;45.42640;https://maps.google.com/maps?q=45.426402,-75.69363;FAUX
+Metcalf au Musée de la Nature;3;3h;-75.68726;45.41341;https://maps.google.com/maps?q=45.413412,-75.68726;FAUX
+Queen à Kent;1;3h;-75.70277;45.41977;https://maps.google.com/maps?q=45.419772,-75.70277;FAUX
+Sparks à Lyon;4;24h (payant);-75.70649;45.41891;https://maps.google.com/maps?q=45.418912,-75.70649;FAUX
+Sussex à George;1;24h (payant);-75.69475;45.42625;https://maps.google.com/maps?q=45.426252,-75.69475;FAUX
+Commisssioners entre Albert et Wellington;4+;24h;-75.70943;45.41620;https://maps.google.com/maps?q=45.416202,-75.70943;FAUX
+Fleet et Wellington;?;24h;-75.71383;45.41572;https://maps.google.com/maps?q=45.415722,-75.71383;FAUX
+Des Allumetières (Arena de Gatineau);?;24h;-75.72534;45.43348;https://maps.google.com/maps?q=45.433482,-75.72534;FAUX
+Des Allumetières entre Laurier et Maisonneuve;2;3h;-75.71208;45.43247;https://maps.google.com/maps?q=45.432472,-75.71208;FAUX
+Laurier et Musée de l'Histoire;6;3h;-75.70994;45.43031;https://maps.google.com/maps?q=45.430312,-75.70994;FAUX

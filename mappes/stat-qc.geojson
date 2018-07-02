@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chemin Champlain Sud",
+        "places": "6",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=46.808630,-71.203342",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.203342,
+          46.80863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chemin Champlain Nord",
+        "places": "3",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=46.809773,-71.203449",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.203449,
+          46.809773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Citadelle",
+        "places": "1",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=46.804799,-71.208814",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.208814,
+          46.804799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Plaines",
+        "places": "18",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=46.806945,-71.212359",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.212359,
+          46.806945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Manège militaire",
+        "places": "4",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=46.806634,-71.214054",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.214054,
+          46.806634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Parc de baseball Victoria",
+        "places": "13",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=46.818913,-71.232859",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.232859,
+          46.818913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Bunker",
+        "places": "4",
+        "horaire": "10m",
+        "gmap": "https://maps.google.com/maps?q=46.807421,-71.214102",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.214102,
+          46.807421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Traversier",
+        "places": "3",
+        "horaire": "10m",
+        "gmap": "https://maps.google.com/maps?q=46.812144,-71.202475",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.202475,
+          46.812144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chateau Frontnac",
+        "places": "2",
+        "horaire": "10m",
+        "gmap": "https://maps.google.com/maps?q=46.812743,-71.205361",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.205361,
+          46.812743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Colline parlementaire Ouest",
+        "places": "2",
+        "horaire": "10m",
+        "gmap": "https://maps.google.com/maps?q=46.810056,-71.213300",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2133,
+          46.810056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Colline parlementaire Est",
+        "places": "1",
+        "horaire": "10m",
+        "gmap": "https://maps.google.com/maps?q=46.809311,-71.212203",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.212203,
+          46.809311
+        ]
+      }
+    }
+  ]
+}

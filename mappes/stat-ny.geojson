@@ -1,0 +1,614 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 30 ST entre 12 AV et 11 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7538892,-74.005340",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 30 ST",
+        "STREET FROM": "12 AV",
+        "STREET TO": "11 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00534,
+          40.753889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 33 ST entre 11 AV et 12 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7557512,-74.003978",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 33 ST",
+        "STREET FROM": "11 AV",
+        "STREET TO": "12 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003978,
+          40.755751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 37 ST entre 10 AV et 11 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7571612,-73.999297",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 37 ST",
+        "STREET FROM": "10 AV",
+        "STREET TO": "11 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999297,
+          40.757161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 38 ST entre 10 AV et 9 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7565842,-73.996030",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 38 ST",
+        "STREET FROM": "10 AV",
+        "STREET TO": "9 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99603,
+          40.756584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 38 ST entre FDR DR et 1 AV",
+        "places": "",
+        "horaire": "7h – 19h",
+        "gmap": "https://maps.google.com/maps?q=40.7461102,-73.971196",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 38 ST",
+        "STREET FROM": "FDR DR",
+        "STREET TO": "1 AV",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971196,
+          40.74611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "1 AV entre W 38 ST et W 41 ST",
+        "places": "",
+        "horaire": "7h – 19h",
+        "gmap": "https://maps.google.com/maps?q=40.7472682,-73.971013",
+        "debarcadere": "FAUX",
+        "LOCATION": "1 AV",
+        "STREET FROM": "W 38 ST",
+        "STREET TO": "W 41 ST",
+        "CURB": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971013,
+          40.747268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 39 ST entre 9 AV et 11 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7577472,-73.99684",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 39 ST",
+        "STREET FROM": "9 AV",
+        "STREET TO": "11 AV",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99684,
+          40.757747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "11 AV entre W 40 ST et W 39 ST",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7592242,-73.999477",
+        "debarcadere": "FAUX",
+        "LOCATION": "11 AV",
+        "STREET FROM": "W 40 ST",
+        "STREET TO": "W 39 ST",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999477,
+          40.759224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 44 ST entre 12 AV et 11 AV",
+        "places": "",
+        "horaire": "10h - 18h",
+        "gmap": "https://maps.google.com/maps?q=40.7626642,-73.998613",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 44 ST",
+        "STREET FROM": "12 AV",
+        "STREET TO": "11 AV",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998613,
+          40.762664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 45 ST entre 11 AV et 12 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7632102,-73.997996",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 45 ST",
+        "STREET FROM": "11 AV",
+        "STREET TO": "12 AV",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997996,
+          40.76321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 46 ST entre 11 AV et 10 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7630282,-73.995650",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 46 ST",
+        "STREET FROM": "11 AV",
+        "STREET TO": "10 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99565,
+          40.763028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 48 ST entre 12 AV et 11 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7650652,-73.996602",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 48 ST",
+        "STREET FROM": "12 AV",
+        "STREET TO": "11 AV",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996602,
+          40.765065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 49 ST entre 11 AV et 12 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7656932,-73.996154",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 49 ST",
+        "STREET FROM": "11 AV",
+        "STREET TO": "12 AV",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996154,
+          40.765693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 50 ST entre 12 AV et 11 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7663172,-73.995660",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 50 ST",
+        "STREET FROM": "12 AV",
+        "STREET TO": "11 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99566,
+          40.766317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 51 ST entre 11 AV et 12 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7669412,-73.995209",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 51 ST",
+        "STREET FROM": "11 AV",
+        "STREET TO": "12 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995209,
+          40.766941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "12 AV entre W 52 ST et W 54 ST",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7686252,-73.995287",
+        "debarcadere": "FAUX",
+        "LOCATION": "12 AV",
+        "STREET FROM": "W 52 ST",
+        "STREET TO": "W 54 ST",
+        "CURB": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.995287,
+          40.768625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 59 ST entre 12 AV et WEST END AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7728642,-73.993446",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 59 ST",
+        "STREET FROM": "12 AV",
+        "STREET TO": "WEST END AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993446,
+          40.772864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "E 97 ST entre FDR DR et 1 AV",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7838212,-73.943889",
+        "debarcadere": "FAUX",
+        "LOCATION": "E 97 ST",
+        "STREET FROM": "FDR DR",
+        "STREET TO": "1 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943889,
+          40.783821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "AMSTERDAM AV entre CATHEDRAL PKY et W 113 ST",
+        "places": "",
+        "horaire": "8h - 19h",
+        "gmap": "https://maps.google.com/maps?q=40.8044672,-73.962819",
+        "debarcadere": "FAUX",
+        "LOCATION": "AMSTERDAM AV",
+        "STREET FROM": "CATHEDRAL PKY",
+        "STREET TO": "W 113 ST",
+        "CURB": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962819,
+          40.804467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "W 118 ST entre LENOX AV et 5 AV",
+        "places": "",
+        "horaire": "Dimanche seulement 10h - 16h",
+        "gmap": "https://maps.google.com/maps?q=40.8026432,-73.947038",
+        "debarcadere": "FAUX",
+        "LOCATION": "W 118 ST",
+        "STREET FROM": "LENOX AV",
+        "STREET TO": "5 AV",
+        "CURB": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947038,
+          40.802643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "EDGECOMBE AV entre W 162 ST et W 160 ST",
+        "places": "",
+        "horaire": "Dimanche seulement 10h - 16h",
+        "gmap": "https://maps.google.com/maps?q=40.8355202,-73.937493",
+        "debarcadere": "FAUX",
+        "LOCATION": "EDGECOMBE AV",
+        "STREET FROM": "W 162 ST",
+        "STREET TO": "W 160 ST",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937493,
+          40.83552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "WATER ST  entre FULTON ST et JOHN ST",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7071012,-74.004579",
+        "debarcadere": "FAUX",
+        "LOCATION": "WATER ST ",
+        "STREET FROM": "FULTON ST",
+        "STREET TO": "JOHN ST",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004579,
+          40.707101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "NORTH END AV entre CHAMBERS ST et WARREN ST",
+        "places": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=40.7172812,-74.014058",
+        "debarcadere": "FAUX",
+        "LOCATION": "NORTH END AV",
+        "STREET FROM": "CHAMBERS ST",
+        "STREET TO": "WARREN ST",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.014058,
+          40.717281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "SOUTH ST entre OLD SLIP et BROAD ST",
+        "places": "",
+        "horaire": "10h - 19h Sauf dimanche<br>Parcomètre 3h",
+        "gmap": "https://maps.google.com/maps?q=40.7023662,-74.009477",
+        "debarcadere": "FAUX",
+        "LOCATION": "SOUTH ST",
+        "STREET FROM": "OLD SLIP",
+        "STREET TO": "BROAD ST",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.009477,
+          40.702366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "SOUTH ST entre PIKE SLIP et MARKET SLIP",
+        "places": "",
+        "horaire": "8h - 18h Sauf dimanche<br>Parcomètre 3h",
+        "gmap": "https://maps.google.com/maps?q=40.7096732,-73.992755",
+        "debarcadere": "FAUX",
+        "LOCATION": "SOUTH ST",
+        "STREET FROM": "PIKE SLIP",
+        "STREET TO": "MARKET SLIP",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992755,
+          40.709673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "WEST ST entre VESEY ST et BARCLAY ST",
+        "places": "",
+        "horaire": "10h-16h L-V et  7h-19h S-D<br>Parcomètre 3h",
+        "gmap": "https://maps.google.com/maps?q=40.7144052,-74.013402",
+        "debarcadere": "FAUX",
+        "LOCATION": "WEST ST",
+        "STREET FROM": "VESEY ST",
+        "STREET TO": "BARCLAY ST",
+        "CURB": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.013402,
+          40.714405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "BARCLAY ST entre CHURCH ST et WEST BROADWAY",
+        "places": "",
+        "horaire": "7h - 19h Sauf dimanche<br>Parcomètre 3h",
+        "gmap": "https://maps.google.com/maps?q=40.7130842,-74.010426",
+        "debarcadere": "FAUX",
+        "LOCATION": "BARCLAY ST",
+        "STREET FROM": "CHURCH ST",
+        "STREET TO": "WEST BROADWAY",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.010426,
+          40.713084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "BARCLAY ST entre GREENWICH ST et WEST ST",
+        "places": "",
+        "horaire": "10h-16h L-V et  7h-19h S-D<br>Parcomètre 3h",
+        "gmap": "https://maps.google.com/maps?q=40.7141202,-74.012709",
+        "debarcadere": "FAUX",
+        "LOCATION": "BARCLAY ST",
+        "STREET FROM": "GREENWICH ST",
+        "STREET TO": "WEST ST",
+        "CURB": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.012709,
+          40.71412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "GREENWICH ST entre BATTERY PL et BROOKLYN BATTERY TUNNEL",
+        "places": "",
+        "horaire": "15h - 19h Sauf Dimanche<br>Parcomètre 3h",
+        "gmap": "https://maps.google.com/maps?q=40.7057102,-74.014649",
+        "debarcadere": "FAUX",
+        "LOCATION": "GREENWICH ST",
+        "STREET FROM": "BATTERY PL",
+        "STREET TO": "BROOKLYN BATTERY TUNNEL",
+        "CURB": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.014649,
+          40.70571
+        ]
+      }
+    }
+  ]
+}

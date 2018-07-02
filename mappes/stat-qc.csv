@@ -1,0 +1,12 @@
+nom;places;horaire;longitude;latitude;gmap;debarcadere
+Chemin Champlain Sud;6;;-71.203342;46.808630;https://maps.google.com/maps?q=46.808630,-71.203342;FAUX
+Chemin Champlain Nord;3;;-71.203449;46.809773;https://maps.google.com/maps?q=46.809773,-71.203449;FAUX
+Citadelle;1;;-71.208814;46.804799;https://maps.google.com/maps?q=46.804799,-71.208814;FAUX
+Plaines;18;;-71.212359;46.806945;https://maps.google.com/maps?q=46.806945,-71.212359;FAUX
+Manège militaire;4;;-71.214054;46.806634;https://maps.google.com/maps?q=46.806634,-71.214054;FAUX
+Parc de baseball Victoria;13;;-71.232859;46.818913;https://maps.google.com/maps?q=46.818913,-71.232859;FAUX
+Bunker;4;10m;-71.214102;46.807421;https://maps.google.com/maps?q=46.807421,-71.214102;VRAI
+Traversier;3;10m;-71.202475;46.812144;https://maps.google.com/maps?q=46.812144,-71.202475;VRAI
+Chateau Frontnac;2;10m;-71.205361;46.812743;https://maps.google.com/maps?q=46.812743,-71.205361;VRAI
+Colline parlementaire Ouest;2;10m;-71.213300;46.810056;https://maps.google.com/maps?q=46.810056,-71.213300;VRAI
+Colline parlementaire Est;1;10m;-71.212203;46.809311;https://maps.google.com/maps?q=46.809311,-71.212203;VRAI

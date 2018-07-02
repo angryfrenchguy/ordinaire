@@ -1,0 +1,532 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Guy à René-Lévesque",
+        "places": "1",
+        "horaire": "2h<br>1er Avril au 31 Octobre",
+        "gmap": "https://maps.google.com/maps?q=45.4937882,-73.574463",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574463,
+          45.493788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Saint-Antoine à Guy",
+        "places": "6",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.4928492,-73.571969",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571969,
+          45.492849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Peel à Square Dorchester",
+        "places": "2",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.4992292,-73.571132",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571132,
+          45.499229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Cathédrale à Notre-Dame",
+        "places": "4",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.49611282,-73.5626981",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5626981,
+          45.4961128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Place du frère André et René-Lévesque",
+        "places": "2",
+        "horaire": "2h<br>10h à Minuit",
+        "gmap": "https://maps.google.com/maps?q=45.5032482,-73.566779",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.566779,
+          45.503248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Gauchetière et Robert-Bourassa (côté Nord)",
+        "places": "1",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=45.50010982,-73.5650745",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5650745,
+          45.5001098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Gauchetière et Robert-Bourassa (côté Sud)",
+        "places": "3",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.50023912,-73.5654869",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5654869,
+          45.5002391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Montagne à St-Antoine",
+        "places": "2",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.49526272,-73.5692648",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5692648,
+          45.4952627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mansfield à de la Gauchetière",
+        "places": "2",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.49911662,-73.567014",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567014,
+          45.4991166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mansfield à Sherbrooke",
+        "places": "2",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.49997362,-73.5688941",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5688941,
+          45.4999736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Saint-Jacques à Robert-Bourassa",
+        "places": "3",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.49953252,-73.5624378",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5624378,
+          45.4995325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Des Pins et Coloniale",
+        "places": "1",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.51626272,-73.5740805",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5740805,
+          45.5162627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Des Pins et Drolet",
+        "places": "1",
+        "horaire": "2h",
+        "gmap": "https://maps.google.com/maps?q=45.51793722,-73.5723474",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5723474,
+          45.5179372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Cherrier et Saint-Denis",
+        "places": "2",
+        "horaire": "2h<br>15 mai au 15 octobre",
+        "gmap": "https://maps.google.com/maps?q=45.51885322,-73.5697891",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5697891,
+          45.5188532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Saint-Antoine et Saint-Laurent",
+        "places": "2",
+        "horaire": "8h à 18h 60m<br>18h à minuit 2h",
+        "gmap": "https://maps.google.com/maps?q=45.50816492,-73.556859",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.556859,
+          45.5081649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Wolfe et Viger",
+        "places": "2",
+        "horaire": "L-V 11h à 19h 2h",
+        "gmap": "https://maps.google.com/maps?q=45.51593192,-73.5521966",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5521966,
+          45.5159319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Guy entre Saint-Antoine et René-Lévesque",
+        "places": "2",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.49318242,-73.5734199",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5734199,
+          45.4931824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Mansfield à René-Lévesque",
+        "places": "2",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.49997122,-73.5688197",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5688197,
+          45.4999712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Square Dorchester",
+        "places": "4",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.49915322,-73.5710864",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5710864,
+          45.4991532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Duluth à du Parc",
+        "places": "3",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=45.51399562,-73.5819443",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5819443,
+          45.5139956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Crescent et Sherbrooke",
+        "places": "1",
+        "horaire": "Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.49875342,-73.5789556",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5789556,
+          45.4987534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Square Dorchester et Infotouriste",
+        "places": "4",
+        "horaire": "Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.50002842,-73.5714932",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5714932,
+          45.5000284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Metcalf et de Maisonneuve",
+        "places": "1",
+        "horaire": "1er avril au 15 octobre<br> Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.50151682,45.5015168",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.5015168,
+          45.5015168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Union",
+        "places": "2",
+        "horaire": "1er avril au 15 octobre<br> Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.50382432,-73.5694112",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5694112,
+          45.5038243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Commune à Pointe-à-Callière",
+        "places": "2",
+        "horaire": "Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.5022683,2,-73.5537958",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5537958,
+          45.5022683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Commune à marché Bonsecourt",
+        "places": "3",
+        "horaire": "Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.50952642,-73.5505455",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5505455,
+          45.5095264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "De la Commune à Saint-Laurent",
+        "places": "2",
+        "horaire": "",
+        "gmap": "https://maps.google.com/maps?q=45.50531962,-73.5531543",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5531543,
+          45.5053196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Centre des Sciences de Montréal",
+        "places": "",
+        "horaire": "Débarcadère",
+        "gmap": "https://maps.google.com/maps?q=45.50499372,-73.5506396",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5506396,
+          45.5049937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Vieux-Port",
+        "places": "",
+        "horaire": "24h<br>20$",
+        "gmap": "https://maps.google.com/maps?q=45.51040792,-73.5477335",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5477335,
+          45.5104079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Gare Viger",
+        "places": "",
+        "horaire": "24h<br>Max 18$",
+        "gmap": "https://maps.google.com/maps?q=45.51287762,-73.5527059",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5527059,
+          45.5128776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Gare d'autocars",
+        "places": "",
+        "horaire": "24h<br>60$",
+        "gmap": "https://maps.google.com/maps?q=45.51680482,-73.5631628",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5631628,
+          45.5168048
+        ]
+      }
+    }
+  ]
+}

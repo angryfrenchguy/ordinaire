@@ -1,0 +1,15 @@
+nom;places;horaire;longitude;latitude;gmap;debarcadere
+Queen entre Bay et York;5;1h;-79.38302;43.65163;https://maps.google.com/maps?q=43.651632,-79.38302;FAUX
+Richmond entre York et Yonge;9;L-V 7h30-18h30 <bold>No Parking</bold> <br>L-V 18h30-7h30 <bold>13h</bold><br>S-D<bold>24h</bold>;-79.38225;43.65096;https://maps.google.com/maps?q=43.650962,-79.38225;FAUX
+Adelaide entre Bay et Yonge;4;No Parking L-V 7h30-18h30 <br> 13h L-V 18h30-7h30 <br> 24h S-D;-79.37960;43.65019;https://maps.google.com/maps?q=43.650192,-79.37960;FAUX
+Victoria au Théâtre Canon;3;1h jour et 13h nuit;-79.37920;43.65531;https://maps.google.com/maps?q=43.655312,-79.37920;FAUX
+Elm entre University et Chestnut;5;3h <br> No Parking L-V 15h30-18h30;-79.38654;43.65681;https://maps.google.com/maps?q=43.656812,-79.38654;FAUX
+Edward entre Bay et Elizabeth;1;3h;-79.38456;43.65633;https://maps.google.com/maps?q=43.656332,-79.38456;FAUX
+Chestnut entre Dundas et Edward;1;3h;-79.38609;43.65539;https://maps.google.com/maps?q=43.655392,-79.38609;FAUX
+Asquith à Yonge;1;No Parking L-V 7h30-18h30 <br> 13h L-V 18h30-7h30 <br> 24h S-D;-79.38671;43.67138;https://maps.google.com/maps?q=43.671382,-79.38671;FAUX
+Front entre Bathhurst et Draper;10;No Parking L-V 7h30-18h30;-79.39880;43.64144;https://maps.google.com/maps?q=43.641442,-79.39880;FAUX
+Brenmer et Tour du CN;10;1h à 3h;-79.38609;43.64200;https://maps.google.com/maps?q=43.642002,-79.38609;FAUX
+Lower Simcoe et Brenmer;2;3h;-79.38395;43.64227;https://maps.google.com/maps?q=43.642272,-79.38395;FAUX
+Villiers entre Cherry et Saulters;16;24h;-79.3483;43.6493;https://maps.google.com/maps?q=43.64932,-79.3483;FAUX
+Commissioners entre Cherry et Saulters;7;24h;-79.3483;43.6493;https://maps.google.com/maps?q=43.64932,-79.3483;FAUX
+Cherry entre le canal et Unwin;7;24h;-79.34780;43.64007;https://maps.google.com/maps?q=43.640072,-79.34780;FAUX

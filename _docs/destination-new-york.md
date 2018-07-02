@@ -6,12 +6,10 @@ categories:
   - destinations
   - stationnements
 description: "Informations sur New York"
-mappe: "cjidnz2n81hc42rqoi9db4thx"
-layer: "stat-ny-4rsibb"
+layer: "stat-ny.geojson"
 lng: -73.990
 lat: 40.733
 zoom: 10.5
-tileset: "xobpam666.48qgqcpm"
 ---
 #### Sections dans ce document
 {:.no_toc}
@@ -23,7 +21,7 @@ tileset: "xobpam666.48qgqcpm"
 ### Stationnement pour autocar
 
 <br>
-<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?mappe={{ page.mappe }}&layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}&tileset={{ page.tileset }}'" value="Voir la carte">
+<input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}'" value="Voir la carte">
 
 <!-- #### Downtown
 

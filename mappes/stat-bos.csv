@@ -1,0 +1,14 @@
+nom;place;horaire;longitude;latitude;gmap;debarcadere
+Commercial Street devant l'arena;;15m;-71.057273;42.367924;https://maps.google.com/maps?q=42.3679242,-71.057273;VRAI
+Commercial Street à Lewis Warf;2;15m;-71.051047;42.364021;https://maps.google.com/maps?q=42.3640212,-71.051047;VRAI
+Surface entre Hanover et North (Quincy Market);4;15m;-71.055540;42.361688;https://maps.google.com/maps?q=42.3616882,-71.055540;VRAI
+Surface entre North et Clinton;4;15m;-71.054497;42.361194;https://maps.google.com/maps?q=42.3611942,-71.054497;VRAI
+Atlantic et Rowes Warf;2;15m;-71.050935;42.357469;https://maps.google.com/maps?q=42.3574692,-71.050935;VRAI
+Congress à Fort Point Channel;;15m;-71.052288;42.352540;https://maps.google.com/maps?q=42.3525402,-71.052288;VRAI
+Broad à milk;2;15m;-71.054058;42.358226;https://maps.google.com/maps?q=42.3582262,-71.054058;VRAI
+Dalton entre Belvidere et Scotia (Sheraton);;15m;-71.084824;42.346473;https://maps.google.com/maps?q=42.3464732,-71.084824;VRAI
+Huntington et Christian Science Center (Tour Prudential);4;3h;-71.082686;42.344817;https://maps.google.com/maps?q=42.3448172,-71.082686;FAUX
+Chelsea St. (USS Constitution);;15m;-71.056444;42.375179;https://maps.google.com/maps?q=42.3751792,-71.056444;VRAI
+Moran Terminal;;24h;-71.051269;42.381073;https://maps.google.com/maps?q=42.3810732,-71.051269;FAUX
+Harvard Square;2;15m;-71.118013;42.371686;https://maps.google.com/maps?q=42.3716862,-71.118013;VRAI
+Massachussets à MIT;2;15m;-71.093317;42.358350;https://maps.google.com/maps?q=42.3583502,-71.093317;VRAI

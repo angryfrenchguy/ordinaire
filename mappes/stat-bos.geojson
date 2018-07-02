@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Commercial Street devant l'arena",
+        "place": "",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3679242,-71.057273",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.057273,
+          42.367924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Commercial Street à Lewis Warf",
+        "place": "2",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3640212,-71.051047",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.051047,
+          42.364021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Surface entre Hanover et North (Quincy Market)",
+        "place": "4",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3616882,-71.055540",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.05554,
+          42.361688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Surface entre North et Clinton",
+        "place": "4",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3611942,-71.054497",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.054497,
+          42.361194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Atlantic et Rowes Warf",
+        "place": "2",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3574692,-71.050935",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.050935,
+          42.357469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Congress à Fort Point Channel",
+        "place": "",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3525402,-71.052288",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.052288,
+          42.35254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Broad à milk",
+        "place": "2",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3582262,-71.054058",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.054058,
+          42.358226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Dalton entre Belvidere et Scotia (Sheraton)",
+        "place": "",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3464732,-71.084824",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.084824,
+          42.346473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Huntington et Christian Science Center (Tour Prudential)",
+        "place": "4",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=42.3448172,-71.082686",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.082686,
+          42.344817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chelsea St. (USS Constitution)",
+        "place": "",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3751792,-71.056444",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.056444,
+          42.375179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Moran Terminal",
+        "place": "",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=42.3810732,-71.051269",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.051269,
+          42.381073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Harvard Square",
+        "place": "2",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3716862,-71.118013",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.118013,
+          42.371686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Massachussets à MIT",
+        "place": "2",
+        "horaire": "15m",
+        "gmap": "https://maps.google.com/maps?q=42.3583502,-71.093317",
+        "debarcadere": "VRAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.093317,
+          42.35835
+        ]
+      }
+    }
+  ]
+}

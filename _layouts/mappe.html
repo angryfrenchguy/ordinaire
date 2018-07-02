@@ -3,99 +3,85 @@ layout: default
 ---
 
 <!-- TODO Ajouter un toggle pour les places de nuit et celles qui ne sont utilisables que le jour. Voir https://www.mapbox.com/mapbox-gl-js/example/toggle-layers/. -->
+<!-- TODO Ajouter une légende -->
+<!-- TODO faire que les points se resizent automatiquement quand je zoom. -->
+
+<!-- TODO 1. Inclure mapbox(gl?) en node. 2. Convertir mon csv en geojson. 3. Créer ma couche *on site* comme je fais sur /props/heat.html -->
 
 <div id='map' style='height:100vh'></div>
 
 <script>
-  // const mapboxgl = require('mapbox-gl');
 
   var mappe = getLaMappe('mappe');
   var layer = getLaMappe('layer');
   var lng = getLaMappe('lng');
   var lat = getLaMappe('lat');
   var zoom = getLaMappe('zoom');
-  var tileset = getLaMappe('tileset');
+  // var tileset = getLaMappe('tileset');
 
   mapboxgl.accessToken = 'pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw';
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/xobpam666/' + mappe,
+    // style: 'mapbox://styles/xobpam666/' + mappe,
+    style: 'mapbox://styles/xobpam666/cjidnz2n81hc42rqoi9db4thx',
     center: [lng,lat], // starting position [lng, lat]
     zoom: zoom // starting zoom
   });
 
-  // Code de la layer
-  // TODO Peut-être que les clicks se feraint mieux sans la couche de "paint"? Essaye avec juste le petit point noir de mapbox
-
   map.on('load', function() {
+
+  map.addSource('park', {
+    type: 'geojson',
+    data: '../' + layer
+  });
 
     map.addLayer({
       'id': 'parking',
       'type': 'circle',
-      'source': {
-        type: 'vector',
-        url: 'mapbox://' + tileset
-      },
-      'layout': {
-        'visibility': 'visible'
-        // 'icon-image': 'bus-15',
-        // 'icon-allow-overlap': true
-      },
-      // 'paint': {
-      //   'circle-radius': 12,
-      //   'circle-color': 'rgba(55,148,179,1)'
-      // },
-      'source-layer': layer
+      'source': 'park',
+      'paint': {
+        'circle-radius': 10,
+        'circle-color': [
+            'match', ['get', 'debarcadere'],
+            'VRAI', 'green',
+            'FAUX','black',
+          'yellow'
+        ]
+      }
     });
   });
 
-  // Code pour voir le popup
-
-  map.on('click', function(e) {
-    var features = map.queryRenderedFeatures(e.point, {
-      layers: [layer]
-    });
-
-    if (!features.length) {
-      return;
-
-    }
-
-    var feature = features[0];
-
-    var popup = new mapboxgl.Popup({
-        // offset: [0, -15]
-      })
-      .setLngLat(feature.geometry.coordinates)
+  map.on('click', 'parking', function(e) {
+    new mapboxgl.Popup()
+      .setLngLat(e.features[0].geometry.coordinates)
       .setHTML(
-        '<h4 class="titre-popup">' + feature.properties._0 + '</h4> \
-            <p><b>Nb de places : </b>' + feature.properties.places + '</p> \
-            <p><b>Horaire :  </b>' + feature.properties.Horaire + '</p> \
-            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + feature.properties.gmap + '&quot;' + '" value="Allons-y!" />'
+        '<h4 class="titre-popup">' + e.features[0].properties.nom + '</h4> \
+            <p><b>Nb de places : </b>' + e.features[0].properties.places + '</p> \
+            <p><b>Horaire :  </b>' + e.features[0].properties.horaire + '</p> \
+            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + e.features[0].properties.gmap + '&quot;' + '" value="Allons-y!" />'
       )
-      .setLngLat(feature.geometry.coordinates)
       .addTo(map);
   });
 
   // Code pour changer le curseur en pointeur sur les éléments clickables. Pas clair comment faire ne mode mobile.
 
-  map.on("mousemove", function(e) {
-    //get the feature underneath the mouse
-    var features = map.queryRenderedFeatures(e.point, {
-      layers: [layer]
-    });
-    //if there's a point under our mouse, then do the following.
-    if (features.length > 0) {
-      //use the following code to change the
-      //cursor to a pointer ('pointer') instead of the default ('')
-      map.getCanvas().style.cursor = (features[0].properties.Name !== null) ? 'pointer' : '';
-    }
-    //if there are no points under our mouse,
-    //then change the cursor back to the default
-    else {
-      map.getCanvas().style.cursor = '';
-    }
-  });
+  // map.on("mousemove", function(e) {
+  //   //get the feature underneath the mouse
+  //   var features = map.queryRenderedFeatures(e.point, {
+  //     layers: [layer]
+  //   });
+  //   //if there's a point under our mouse, then do the following.
+  //   if (features.length > 0) {
+  //     //use the following code to change the
+  //     //cursor to a pointer ('pointer') instead of the default ('')
+  //     map.getCanvas().style.cursor = (features[0].properties.Name !== null) ? 'pointer' : '';
+  //   }
+  //   //if there are no points under our mouse,
+  //   //then change the cursor back to the default
+  //   else {
+  //     map.getCanvas().style.cursor = '';
+  //   }
+  // });
 
   // Code pour la position de l'utilisateur
 

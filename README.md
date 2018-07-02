@@ -32,3 +32,12 @@ browserify assets/js/signature.js | uglifyjs -mc > assets/js/signature_bundle.js
 ```  
 
 à chaque fois.
+
+
+### TODO
+
+- Parking Washington DC
+- Parking Philadelphie
+- Parking Tadoussac
+- Mettre mes communications relative aux réunions dans "Nouvelles"
+- Essayer de refaire le lien direct au parkings
