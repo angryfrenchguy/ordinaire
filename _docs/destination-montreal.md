@@ -6,7 +6,7 @@ categories:
   - destinations
   - stationnements
 description: "Informations sur Montréal"
-layer: "stat-mtl.geojson"
+layer: "../stat-mtl.geojson"
 lng: -73.562
 lat: 45.503
 zoom: 13

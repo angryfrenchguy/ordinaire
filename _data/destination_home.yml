@@ -27,3 +27,8 @@
   desc:
   icon: I_Love_New_York
   doc: destination-new-york
+
+- title: Washington
+  desc:
+  icon:
+  doc: destination-washington

@@ -6,7 +6,7 @@ categories:
   - destinations
   - stationnements
 description: "Informations sur New York"
-layer: "stat-ny.geojson"
+layer: "../stat-ny.geojson"
 lng: -73.990
 lat: 40.733
 zoom: 10.5

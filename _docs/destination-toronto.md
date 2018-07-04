@@ -11,7 +11,7 @@ categories:
 description: "Ressources pour chauffeurs à Toronto"
 tags:
   - destination
-layer: "stat-to.geojson"
+layer: "../stat-to.geojson"
 lng: -79.380
 lat: 43.638
 zoom: 12

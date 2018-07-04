@@ -38,7 +38,8 @@ layout: default
 
   map.addSource('park', {
     type: 'geojson',
-    data: '../' + layer
+    // data: '../' + layer
+    data: layer
   });
 
     map.addLayer({
@@ -58,13 +59,26 @@ layout: default
   });
 
   map.on('click', 'parking', function(e) {
+
+    // Pour que le geojson des api match celui de mes feuilles de calcul
+
+    var nom = e.features[0].properties.nom != undefined ? e.features[0].properties.nom : e.features[0].properties.LOCATION;
+    var horaire = e.features[0].properties.horaire != undefined ? e.features[0].properties.horaire : e.features[0].properties.RESTRICTIONS;
+    var places = e.features[0].properties.places != undefined ? e.features[0].properties.places : e.features[0].properties.NUMOFSPOTS;
+
+    console.log(e.features[0].geometry.coordinates)
+
+    var gmap = 'https://www.google.com/maps?q=' + e.features[0].geometry.coordinates[1] + ',' + e.features[0].geometry.coordinates[0];
+
+    // https://www.google.com/maps?q=45.51680482,-73.5631628
+
     new mapboxgl.Popup()
       .setLngLat(e.features[0].geometry.coordinates)
       .setHTML(
-        '<h4 class="titre-popup">' + e.features[0].properties.nom + '</h4> \
-            <p><b>Nb de places : </b>' + e.features[0].properties.places + '</p> \
-            <p><b>Horaire :  </b>' + e.features[0].properties.horaire + '</p> \
-            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + e.features[0].properties.gmap + '&quot;' + '" value="Allons-y!" />'
+        '<h4 class="titre-popup">' + nom + '</h4> \
+            <p><b>Nb de places : </b>' + places + '</p> \
+            <p><b>Horaire :  </b>' + horaire + '</p> \
+            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + gmap + '&quot;' + '" value="Allons-y!" />'
       )
       .addTo(map);
   });

@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Queen entre Bay et York",
+        "places": "5",
+        "horaire": "1h",
+        "gmap": "https://maps.google.com/maps?q=43.651632,-79.38302",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38302,
+          43.65163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Richmond entre York et Yonge",
+        "places": "9",
+        "horaire": "L-V 7h30-18h30 <bold>No Parking</bold> <br>L-V 18h30-7h30 <bold>13h</bold><br>S-D<bold>24h</bold>",
+        "gmap": "https://maps.google.com/maps?q=43.650962,-79.38225",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38225,
+          43.65096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Adelaide entre Bay et Yonge",
+        "places": "4",
+        "horaire": "No Parking L-V 7h30-18h30 <br> 13h L-V 18h30-7h30 <br> 24h S-D",
+        "gmap": "https://maps.google.com/maps?q=43.650192,-79.37960",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3796,
+          43.65019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Victoria au Théâtre Canon",
+        "places": "3",
+        "horaire": "1h jour et 13h nuit",
+        "gmap": "https://maps.google.com/maps?q=43.655312,-79.37920",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3792,
+          43.65531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Elm entre University et Chestnut",
+        "places": "5",
+        "horaire": "3h <br> No Parking L-V 15h30-18h30",
+        "gmap": "https://maps.google.com/maps?q=43.656812,-79.38654",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38654,
+          43.65681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Edward entre Bay et Elizabeth",
+        "places": "1",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=43.656332,-79.38456",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38456,
+          43.65633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Chestnut entre Dundas et Edward",
+        "places": "1",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=43.655392,-79.38609",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38609,
+          43.65539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Asquith à Yonge",
+        "places": "1",
+        "horaire": "No Parking L-V 7h30-18h30 <br> 13h L-V 18h30-7h30 <br> 24h S-D",
+        "gmap": "https://maps.google.com/maps?q=43.671382,-79.38671",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38671,
+          43.67138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Front entre Bathhurst et Draper",
+        "places": "10",
+        "horaire": "No Parking L-V 7h30-18h30",
+        "gmap": "https://maps.google.com/maps?q=43.641442,-79.39880",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3988,
+          43.64144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Brenmer et Tour du CN",
+        "places": "10",
+        "horaire": "1h à 3h",
+        "gmap": "https://maps.google.com/maps?q=43.642002,-79.38609",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38609,
+          43.642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Lower Simcoe et Brenmer",
+        "places": "2",
+        "horaire": "3h",
+        "gmap": "https://maps.google.com/maps?q=43.642272,-79.38395",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38395,
+          43.64227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Villiers entre Cherry et Saulters",
+        "places": "16",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=43.64932,-79.3483",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3483,
+          43.6493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Commissioners entre Cherry et Saulters",
+        "places": "7",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=43.64932,-79.3483",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3483,
+          43.6493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Cherry entre le canal et Unwin",
+        "places": "7",
+        "horaire": "24h",
+        "gmap": "https://maps.google.com/maps?q=43.640072,-79.34780",
+        "debarcadere": "FAUX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3478,
+          43.64007
+        ]
+      }
+    }
+  ]
+}

@@ -7,7 +7,7 @@ categories:
   - stationnements
   - lavage
 description: "Ressources pour chauffeurs à Québec"
-layer: "stat-qc.geojson"
+layer: "../stat-qc.geojson"
 lng: -71.21
 lat: 46.805
 zoom: 13

@@ -6,7 +6,7 @@ categories:
   - destinations
   - stationnements
 description: "Informations sur Boston"
-layer: "stat-bos.geojson"
+layer: "../stat-bos.geojson"
 lng: -71.062
 lat: 42.350
 zoom: 12
