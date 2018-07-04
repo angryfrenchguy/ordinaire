@@ -1,9 +1,18 @@
 var SignaturePad = require('signature_pad');
 var moment = require('moment');
 require('moment/locale/fr');
+require('moment/locale/en-ca');
 var jsPDF = require('jspdf');
 
-moment.locale('fr');
+function getLaLangue() {
+  var href = window.location.href;
+  var reg = new RegExp( '[?&]=([^&#]*)', 'i' );
+  var string = reg.exec(href);
+  console.log(string);
+  return string ? string[1] : null;
+
+  string == 'en' ? moment.locale('en-ca') : moment.locale('fr');
+}
 
 function signature() {
 
@@ -65,12 +74,16 @@ function image(sig) {
 
 function fairePDF(sig, logo) {
 
+  moment.locale(getLaLangue());
+
   var titre = document.getElementById('titre').innerHTML;
   var texte = document.getElementById('textecite').innerHTML;
   var contrat = 're. contrat ' + document.getElementsByName('contrat')[0].value;
   var nom = document.getElementsByName('nom')[0].value;
   var courriel = document.getElementsByName('courriel')[0].value;
   var date = moment().format('D MMMM YYYY');
+
+  console.log(date);
 
   toPDF(sig, titre, texte, nom, courriel, date, contrat, logo);
   console.log(sig, titre, texte, nom, courriel, date, contrat, logo)
@@ -162,4 +175,5 @@ $(document).ready(function() {
   // signature();
   next();
   signature();
+  // getLaLangue()
 });

@@ -1,9 +1,10 @@
 ---
 layout: formulaire
-date: 2018-04-18
+date: 2018-07-04
 title: Responsabilité pour l'alcool à bord
 categories:
   - formulaire
+langue: fr
 description: "Responsabilité pour l'alcool à bord"
 ---
 
@@ -19,7 +20,8 @@ Le client accepte également l’entière responsabilité des frais pouvant r
 >**ARTICLE 443** : *Aucun occupant d’un véhicule routier ne peut y consommer des boissons
 alcoolisées.*  
 
->**ARTICLE 511** : *L’occupant d’un véhicule routier autre que le conducteur qui contrevient à l’article 443 commet une infraction et est passible, en outre des frais, d’une amende de 200,00$ à 300,00$.
+>**ARTICLE 511** : *L’occupant d’un véhicule routier autre que le conducteur qui contrevient à l’article 443 commet une infraction et est passible, en outre des frais, d’une amende de 200,00$ à 300,00$.  
+
 Le conducteur d’un véhicule routier qui contrevient à l’article 443 commet une infraction et est passible, en outre des frais, d’une amende de 300,00$ à 600,00$.*
 
 <!-- TODO Je ne sais pas comment ajouter des paragraphes multiples... -->
