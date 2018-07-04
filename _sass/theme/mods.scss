@@ -23,6 +23,7 @@
   font-weight: bold;
   background-color: #1579c1;
   border-radius: 5px;
+  -webkit-appearance: none;
 }
 
 /* Change cursor when mousing over clickable layer */
@@ -67,4 +68,8 @@
     height: 14px;
     margin-right: 10px;
     width: 14px;
+}
+
+.uk-button {
+  -webkit-appearance: none;
 }
