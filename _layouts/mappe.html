@@ -3,7 +3,6 @@ layout: default
 ---
 
 <!-- TODO Ajouter un toggle pour les places de nuit et celles qui ne sont utilisables que le jour. Voir https://www.mapbox.com/mapbox-gl-js/example/toggle-layers/. -->
-<!-- TODO Ajouter une légende -->
 <!-- TODO faire que les points se resizent automatiquement quand je zoom. -->
 
 <!-- TODO 1. Inclure mapbox(gl?) en node. 2. Convertir mon csv en geojson. 3. Créer ma couche *on site* comme je fais sur /props/heat.html -->
@@ -11,14 +10,14 @@ layout: default
 <div id='map' style='height:100vh'></div>
 
 <div id='legende-places' class='legende'>
-    <div><span style='background-color: green'></span>Débarcadère</div>
-    <div><span style='background-color: black'></span>Stationnement</div>
+  <div><span style='background-color: green'></span>Débarcadère</div>
+  <div><span style='background-color: black'></span>Stationnement</div>
 </div>
 
 <script>
-
   var mappe = getLaMappe('mappe');
   var layer = getLaMappe('layer');
+  var layer2 = getLaMappe('layer2'); //Pour les dropons/dropoffs de DC
   var lng = getLaMappe('lng');
   var lat = getLaMappe('lat');
   var zoom = getLaMappe('zoom');
@@ -30,17 +29,35 @@ layout: default
     // style: 'mapbox://styles/xobpam666/' + mappe,
     // style: 'mapbox://styles/xobpam666/cjidnz2n81hc42rqoi9db4thx',
     style: 'mapbox://styles/xobpam666/cjj77nsf624ka2snn0nj3f21x',
-    center: [lng,lat], // starting position [lng, lat]
+    center: [lng, lat], // starting position [lng, lat]
     zoom: zoom // starting zoom
   });
 
   map.on('load', function() {
 
-  map.addSource('park', {
-    type: 'geojson',
-    // data: '../' + layer
-    data: layer
-  });
+    map.addSource('park', {
+      type: 'geojson',
+      // data: '../' + layer
+      data: layer
+    });
+
+    // Couche pour les dropons/dropoffs de DC
+
+    map.addSource('stop', {
+      type: 'geojson',
+      // data: '../' + layer
+      data: layer2
+    });
+
+    map.addLayer({
+      'id': 'stopping',
+      'type': 'circle',
+      'source': 'stop',
+      'paint': {
+        'circle-radius': 10,
+        'circle-color': 'green'
+      }
+    });
 
     map.addLayer({
       'id': 'parking',
@@ -60,17 +77,28 @@ layout: default
 
   map.on('click', 'parking', function(e) {
 
+    var nom = 'Je ne sais pas';
+    var places = 'Je ne sais pas';
+    var horaire = 'Je ne sais pas';
+    var x = 'Je ne sais pas';
+    var toute = [];
+
+    toute.push(Object.keys(e.features[0].properties));
+
+    toute[0].indexOf('nom') !== -1 ? nom = e.features[0].properties.nom : nom;
+    toute[0].indexOf('ATTRACTION') !== -1 ? nom = e.features[0].properties.ATTRACTION : nom;
+    toute[0].indexOf('horaire') !== -1 ? horaire = e.features[0].properties.horaire : horaire;
+    toute[0].indexOf('RESTRICTIONS') !== -1 ? horaire = e.features[0].properties.RESTRICTIONS: horaire;
+    toute[0].indexOf('places') !== -1 ? places = e.features[0].properties.place : places;
+    toute[0].indexOf('NUMOFSPOTS') !== -1 ? places = e.features[0].properties.NUMOFSPOTS : places;
+
     // Pour que le geojson des api match celui de mes feuilles de calcul
 
-    var nom = e.features[0].properties.nom != undefined ? e.features[0].properties.nom : e.features[0].properties.LOCATION;
-    var horaire = e.features[0].properties.horaire != undefined ? e.features[0].properties.horaire : e.features[0].properties.RESTRICTIONS;
-    var places = e.features[0].properties.places != undefined ? e.features[0].properties.places : e.features[0].properties.NUMOFSPOTS;
-
-    console.log(e.features[0].geometry.coordinates)
+    // var nom = e.features[0].properties.nom != undefined ? e.features[0].properties.nom : e.features[0].properties.LOCATION;
+    // var horaire = e.features[0].properties.horaire != undefined ? e.features[0].properties.horaire : e.features[0].properties.RESTRICTIONS;
+    // var places = e.features[0].properties.places != undefined ? e.features[0].properties.places : e.features[0].properties.NUMOFSPOTS;
 
     var gmap = 'https://www.google.com/maps?q=' + e.features[0].geometry.coordinates[1] + ',' + e.features[0].geometry.coordinates[0];
-
-    // https://www.google.com/maps?q=45.51680482,-73.5631628
 
     new mapboxgl.Popup()
       .setLngLat(e.features[0].geometry.coordinates)
@@ -78,7 +106,46 @@ layout: default
         '<h4 class="titre-popup">' + nom + '</h4> \
             <p><b>Nb de places : </b>' + places + '</p> \
             <p><b>Horaire :  </b>' + horaire + '</p> \
-            <input id="vamonos" type="button" onclick="location.href=' + '&quot;' + gmap + '&quot;' + '" value="Allons-y!" />'
+            <input id="vamonos" type="button" onclick="location.href=' +
+        '&quot;' + gmap + '&quot;' + '" value="Allons-y!" />'
+      )
+      .addTo(map);
+  });
+
+// TODO Ça serait cool de pouvoir utiliser une seule fonction pour les deux layers...
+
+  map.on('click', 'stopping', function(e) {
+
+    var nom = 'Je ne sais pas';
+    var places = 'Je ne sais pas';
+    var horaire = 'Je ne sais pas';
+    var x = 'Je ne sais pas';
+    var toute = [];
+
+    console.log(Object.keys(e.features[0].properties));
+
+    toute.push(Object.keys(e.features[0].properties));
+
+    toute[0].indexOf('LABEL') !== -1 ? nom = e.features[0].properties.LABEL : nom;
+    toute[0].indexOf('RESTRICTION') !== -1 ? horaire = e.features[0].properties.RESTRICTION: horaire;
+    toute[0].indexOf('NUMOFPLACES') !== -1 ? places = e.features[0].properties.NUMOFPLACES : places;
+
+    // Pour que le geojson des api match celui de mes feuilles de calcul
+
+    // var nom = e.features[0].properties.nom != undefined ? e.features[0].properties.nom : e.features[0].properties.LOCATION;
+    // var horaire = e.features[0].properties.horaire != undefined ? e.features[0].properties.horaire : e.features[0].properties.RESTRICTIONS;
+    // var places = e.features[0].properties.places != undefined ? e.features[0].properties.places : e.features[0].properties.NUMOFSPOTS;
+
+    var gmap = 'https://www.google.com/maps?q=' + e.features[0].geometry.coordinates[1] + ',' + e.features[0].geometry.coordinates[0];
+
+    new mapboxgl.Popup()
+      .setLngLat(e.features[0].geometry.coordinates)
+      .setHTML(
+        '<h4 class="titre-popup">' + nom + '</h4> \
+            <p><b>Nb de places : </b>' + places + '</p> \
+            <p><b>Horaire :  </b>' + horaire + '</p> \
+            <input id="vamonos" type="button" onclick="location.href=' +
+        '&quot;' + gmap + '&quot;' + '" value="Allons-y!" />'
       )
       .addTo(map);
   });
@@ -111,5 +178,4 @@ layout: default
     },
     trackUserLocation: true
   }));
-
 </script>
