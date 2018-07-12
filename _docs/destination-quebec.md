@@ -32,14 +32,13 @@ Washington, DC
 
 En haute saison, les probabilitées d'avoir une contravention à Québec sont assez élevées, *particulièrement dans les débarcadères!*  
 
-<br>
 <input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 
 Le stationnement sur rue [est interdit](https://www.ville.quebec.qc.ca/gens_affaires/entreprises_specialisees/autobus_touristiques.aspx) à l'intérieur des murs du Vieux Québec.
 
-## Documentation
+## Règlementation
 
 [Information](https://www.ville.quebec.qc.ca/gens_affaires/entreprises_specialisees/autobus_touristiques.aspx) sur le stationnement des autocars et autobus dans la ville de Québec.
 

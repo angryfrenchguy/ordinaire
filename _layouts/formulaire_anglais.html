@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " fr " }}">
 
+<!-- TODO Y'en a qui ne marchen pas. check -->
+
 {% include head.html %}
 
 <!-- Plutôt que de loader toutes les dépendences via le web, j'utilise browserify. Je download les modules avec NPM et dans mon ficher signature.js je met des var x = require('x');. Quand c'est prêt, je fais `browserify assets/js/signature.js -o assets/js/signature_bundle.js` dans le terminal, et j'ai maintenant un fichier bundle_signature, avec mon code *et* le code des modules dont j'ai besoin. Toute dans *mon* site.
@@ -18,9 +20,7 @@
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/fr-ca.min.js"></script> -->
 <!-- <script src="{{ "/assets/js/signature.js" | relative_url }}"></script> -->
 
-{% if jekyll.environment == "production" %}
-  <script src="{{ "/assets/js/signature_bundle.js" | relative_url }}"></script>
-{% endif %}
+<script src="{{ "/assets/js/signature_bundle.js" | relative_url }}"></script>
 
 <body>
 
@@ -70,6 +70,8 @@
     </div>
 
   </div>
+
+      {% include firebase-config.html %}
 
 
 </body>

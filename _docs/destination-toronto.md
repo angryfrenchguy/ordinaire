@@ -57,7 +57,6 @@ Mal pris c'est aussi possible d'aller chez Coach Canada ou Taipan.
 
 ### Stationnement pour autocar
 
-<br>
 <input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
@@ -76,4 +75,21 @@ Sauf indication contraire, les autocars [sont autorisés à se stationner sur la
 
 L'enregistrement et le paiement du permis à l'aéroport de Toronto est fait par la répartition.  Les autocars doivent se rendre à l'aire d'attente près du terminal 3. *Il n'est plus nécessaire de s'enregistrer.* Les chauffeurs sont contactés par téléphone quand leur groupe est prêt à embarquer.
 
-<a href='https://maps.google.com/maps?q=43.687530,-79.617689'><img width="600" src="https://api.mapbox.com/v4/mapbox.high-contrast/pin-l-airport+ff2600(-79.617689,43.687530)/-79.617689,43.687530,15/600x300@2x.png?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw" alt="Mapbox Map of -79.617689,43.687530"></a>
+
+<!-- Début de version non statitique... -->
+
+<!-- <div id='map' style='height:100vh'></div>
+
+<script>
+
+mapboxgl.accessToken = 'pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/xobpam666/cjj77nsf624ka2snn0nj3f21x',
+  center: [{{ page.lng }},{{ page.lat }}], // starting position [lng, lat]
+  zoom: {{ page.zoom }} // starting zoom
+});
+
+</script> -->
+
+<a href='https://maps.google.com/maps?q=43.687530,-79.617689'><img width="600" src="https://api.mapbox.com/styles/v1/xobpam666/cjj77nsf624ka2snn0nj3f21x/static/pin-l-airport+ff2600(-79.617689,43.687530)/-79.617689,43.687530,15,0/600x300@2x?access_token=pk.eyJ1IjoieG9icGFtNjY2IiwiYSI6ImNqZnBiY3E0ZTBmbDUzM3FvMjZta3IxZWYifQ.Y8TVWK0bfi0mRBnz8cMLdw" alt="Mapbox Map of -79.617689,43.687530"></a>

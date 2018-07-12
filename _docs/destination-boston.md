@@ -21,21 +21,19 @@ zoom: 12
 
 ### Stationnement pour autocar
 
-<br>
 <input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}'" value="Voir la carte">
 
-### Stationnement dans les places pour voitures
+### Stationnement sur la rue
 
 Les autocars **[n'ont pas le droit](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)** de se stationner dans les espaces avec parcomètres, ni de faire embarquer/débarquer leurs passagers ou de se stationner dans les espaces pour véhicules commerciaux.
 
-### Cartes
+### Documentation
 
-[Carte de Boston](https://www.cityofboston.gov/images_documents/Tour%20Bus%20Parking_updated%206_23_tcm3-12491.pdf)  
-[Carte de Harvard](https://www.cambridgema.gov/~/media/Files/Traffic/Harvard-Square-Tour-Bus-Stop.pdf)  
-[Carte de MIT](https://www.cambridgema.gov/~/media/Files/Traffic/TourBusStopMIT1.pdf)
+[Carte](https://www.cityofboston.gov/images_documents/Tour%20Bus%20Parking_updated%206_23_tcm3-12491.pdf) de Boston  
+[Carte](https://www.cambridgema.gov/~/media/Files/Traffic/Harvard-Square-Tour-Bus-Stop.pdf) de Harvard  
+[Carte](https://www.cambridgema.gov/~/media/Files/Traffic/TourBusStopMIT1.pdf) de MIT
 
+## Réglementation
 
-### Information
-
-[Règles pour les autocars à Boston](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston)
-[Règles pour les autocars à Cambridge](https://www.cambridgema.gov/traffic/Parking/tourbusparking.aspx)
+[Règles](https://www.boston.gov/departments/transportation/guidelines-tour-buses-boston) pour les autocars à Boston  
+[Règles](https://www.cambridgema.gov/traffic/Parking/tourbusparking.aspx) pour les autocars à Cambridge  

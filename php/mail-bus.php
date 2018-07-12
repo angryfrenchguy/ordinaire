@@ -17,18 +17,18 @@ $courriel = $json['email'];
 $contrat = $json['contrat'];
 $titre = $json['titre'];
 
-$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+$mail = new PHPMailer(true);                            // Passing `true` enables exceptions
 try {
   //Server settings
   $mail->SMTPDebug = 2;                                 // Enable verbose debug output
   $mail->isSMTP();                                      // Set mailer to use SMTP
   //$mail->Host = 'mail.net-c.com';  // Specify main and backup SMTP servers
-$mail->Host = 'mail.gandi.net';
+	$mail->Host = 'mail.gandi.net';
   $mail->SMTPAuth = true;                               // Enable SMTP authentication
   //$mail->Username = 'general@netc.fr';
-  $mail->Username = 'autobus@autobus.xyz';                 // SMTP username
+  $mail->Username = 'autobus@autobus.xyz';              // SMTP username
     //$mail->Password = 'bTaxbfkj3cdBt9ApABNZ';
-  $mail->Password = '7MJpmHm/qWzfmGNr';                           // SMTP password
+  $mail->Password = '7MJpmHm/qWzfmGNr';                 // SMTP password
   $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
   $mail->Port = 587;                                    // TCP port to connect to
   $mail->CharSet    = 'UTF-8';
@@ -38,7 +38,7 @@ $mail->Host = 'mail.gandi.net';
   $mail->setFrom('autobus@autobus.xyz', 'Autobus');
   $mail->addAddress($courriel);     // Add a recipient
   // Tu peux commenter out ces deux adresse pour faire des tests
-  $mail->addAddress('marting@autocarexcellence.com');     // Add a recipient
+  $mail->addAddress('marting@autocarexcellence.com');  // Add a recipient
   $mail->addReplyTo('marting@autocarexcellence.com');
   //$mail->addAddress('ellen@example.com');               // Name is optional
   //$mail->addReplyTo('general@netc.fr', 'email du boss');
@@ -53,7 +53,7 @@ $mail->Host = 'mail.gandi.net';
   // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
   //Content
-  $mail->isHTML(true);                                  // Set email format to HTML
+  $mail->isHTML(true);                                     // Set email format to HTML
   $mail->Subject = $titre . ' ' . $contrat;
   $mail->Body    = $titre;
   $mail->AltBody = $titre;

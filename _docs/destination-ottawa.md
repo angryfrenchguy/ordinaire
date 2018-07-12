@@ -21,11 +21,10 @@ zoom: 12
 
 ### Stationnement pour autocar
 
-<br>
 <input class="uk-button uk-button-primary uk-width-1-1" type="button" onclick="location.href='/mappes/mappe-stationnement/index.html?layer={{ page.layer }}&lng={{ page.lng }}&lat={{ page.lat }}&zoom={{ page.zoom }}'" value="Voir la carte">
 
 ### Stationnement dans les places pour voitures
 
-## Documentation
+## Réglementation
 
 [Information sur le stationnement des autocars et autobus dans la ville d'Ottawa](http://trade.seetorontonow.com/wp-content/uploads/sites/4/2016/10/stationnement-des-autocars-et-autobus-dans-la-ville-de-toronto.pdf)
