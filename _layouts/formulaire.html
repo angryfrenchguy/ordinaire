@@ -17,7 +17,12 @@
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/en-ca.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.1/locale/fr-ca.min.js"></script> -->
 <!-- <script src="{{ "/assets/js/signature.js" | relative_url }}"></script> -->
-<script src="{{ "/assets/js/signature_bundle.js" | relative_url }}"></script>
+
+<!-- Pour ne pas que je me mette à envoyer des emails à Martin quand je fais des tests! -->
+
+{% if jekyll.environment == "production" %}
+  <script src="{{ "/assets/js/signature_bundle.js" | relative_url }}"></script>
+{% endif %}
 
 <body>
 
