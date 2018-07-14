@@ -5,6 +5,19 @@ require('moment/locale/fr');
 require('moment/locale/en-ca');
 var jsPDF = require('jspdf');
 
+var courrielUtilisateur;
+
+function getLeCourriel() {
+
+  firebase.auth().onAuthStateChanged(function(firebaseUser) {
+    if (firebaseUser) {
+      courrielUtilisateur = firebaseUser.email;
+    } else {
+      console.log('Je ne sais pas qui est loggé');
+    }
+  });
+}
+
 function getLaLangue() {
   var href = window.location.href;
   var reg = new RegExp( '[?&]=([^&#]*)', 'i' );
@@ -125,6 +138,7 @@ function toPDF(sig, titre, texte, nom, courriel, date, contrat, logo) {
       data: JSON.stringify({
         pdf: pdf,
         email: courriel,
+        emaildeux: courrielUtilisateur,
         titre: titre,
         contrat: contrat
       }),
@@ -177,6 +191,7 @@ $(document).ready(function() {
   next();
   signature();
   // getLaLangue()
+  getLeCourriel();
 });
 
 },{"jspdf":2,"moment":5,"moment/locale/en-ca":3,"moment/locale/fr":4,"signature_pad":6}],2:[function(require,module,exports){

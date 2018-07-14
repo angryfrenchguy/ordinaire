@@ -14,6 +14,7 @@ $json = json_decode($_POST[data], true);
 
 $doc = $json['pdf'];
 $courriel = $json['email'];
+$courrieldeux = $json['emaildeux'];
 $contrat = $json['contrat'];
 $titre = $json['titre'];
 
@@ -37,6 +38,7 @@ try {
   //$mail->setFrom('general@netc.fr', 'Autobus');
   $mail->setFrom('autobus@autobus.xyz', 'Autobus');
   $mail->addAddress($courriel);     // Add a recipient
+  $mail->addAddress($courrieldeux);     // Add a recipient
   // Tu peux commenter out ces deux adresse pour faire des tests
   $mail->addAddress('marting@autocarexcellence.com');  // Add a recipient
   $mail->addReplyTo('marting@autocarexcellence.com');

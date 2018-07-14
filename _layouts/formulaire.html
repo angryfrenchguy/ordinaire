@@ -23,6 +23,12 @@
 
 <body>
 
+  {% if jekyll.environment == "production" %}
+      <div id="secret" style="display:none">
+  {% else %}
+      <div id="secret">
+  {% endif %}
+
   <div id="conteneur">
 
     <h2 id="titre">{{ page.title | escape }}</h2>
@@ -70,7 +76,27 @@
 
   </div>
 
+</div>
+</div>
+
     {% include firebase-config.html %}
+    {% include event_listener.html %}
+
+    <script>
+
+    // var xxx;
+    //
+    // firebase.auth().onAuthStateChanged(function(firebaseUser) {
+    //   if (firebaseUser) {
+    //     xxx = firebaseUser.email;
+    //     console.log('Le email est : ',xxx);
+    //   } else {
+    // console.log(firebaseUser);
+    //   }
+    //
+    //   });
+
+    </script>
 
 
 </body>
