@@ -54,7 +54,7 @@ twitter_username:
 
 # Default footer image settings
 footer:
-    copyright:      Basé sur le design d'un <a href="https://ivanchromjak.com/">humain</a>.
+    copyright:      Basé sur le design d'un <a href="https://ivanchromjak.com/">humain</a><br>Icônes par <a href="https://www.freepik.com/">Freepik</a>, <a href="https://www.flaticon.com/authors/daniel-bruce">Daniel Bruce</a> via <a href="https://www.flaticon.com/">Flaticon</a>, <a href="https://www.simpleicon.com/">Simpleicon</a> et <a href="https://commons.wikimedia.org">Wikimedia Commons</a>.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:

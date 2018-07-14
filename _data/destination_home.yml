@@ -10,7 +10,7 @@
 
 - title: Ottawa
   desc:
-  icon: rcmp
+  icon: iconmonstr-airport-16
   doc: destination-ottawa
 
 - title: Montréal
@@ -20,7 +20,7 @@
 
 - title: Québec
   desc:
-  icon: radio
+  icon: iconmonstr-radio-10
   doc: destination-quebec
 
 - title: New York
@@ -30,5 +30,5 @@
 
 - title: Washington
   desc:
-  icon:
+  icon: Flag_of_the_District_of_Columbia
   doc: destination-washington
