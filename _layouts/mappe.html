@@ -64,7 +64,11 @@ layout: default
       'type': 'circle',
       'source': 'park',
       'paint': {
-        'circle-radius': 10,
+        "circle-radius": [
+                    "interpolate", ["exponential", 2], ["zoom"],
+                      0, 5,
+                      15, 10
+                  ],
         'circle-color': [
             'match', ['get', 'debarcadere'],
             'VRAI', 'green',
@@ -178,4 +182,8 @@ layout: default
     },
     trackUserLocation: true
   }));
+
+  // Create some marker that will be resized on the map zooming
+  // var myMarker = new L.circle([10,10], { /* Options */ });
+
 </script>
